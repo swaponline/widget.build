@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>Hot Wallet with p2p exchange</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image"
+    content="https://screenshots.wpmix.net/chrome_2019-03-28_18-55-506746c4c5-44e6-4bb5-89cb-52ce8fabcedf.png">
+  <link rel="stylesheet" href="https://swap.online/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <meta property="og:url" content="https://swap.online">
+
+  <!-- Google Analytics -->
+  <script>
+    const isMainDomain = window.location.hostname === 'swap.online';
+    const isExtension = window.location.hostname === 'jbhhiineefefhcaoocmnkbmgfjbhninc';
+
+    if (isMainDomain || isExtension) {
+      const gtagScript = document.createElement('script');
+      var gtagId;
+
+      if (isMainDomain) {
+        gtagId = 'GTM-WK72GSV';
+      }
+
+      if (isExtension) {
+        gtagId = 'GTM-PJH52QL';
+      }
+
+      gtagScript.async = true;
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + gtagId;
+
+      document.head.appendChild(gtagScript);
+
+      window.dataLayer = window.dataLayer || [];
+
+      window.gtag = function () {
+        window.dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', gtagId);
+    }
+
+  </script>
+  <!-- /Google Analytics -->
+
+  <style>
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1000
+    }
+
+    .loader {
+      text-align: center;
+    }
+
+    .loader img {
+      width: 150px;
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 16px;
+      top: 65%;
+      text-align: center
+    }
+
+    .link {
+      margin-top: 10px;
+      font-size: 16px;
+      top: 70%;
+      text-align: center
+    }
+
+    .over {
+      text-transform: uppercase
+    }
+
+    .tips {
+      margin-top: 25px;
+      font-size: 16px;
+      text-align: center;
+      padding: 0 5px
+    }
+
+    .usersInform {
+      text-align: center;
+      position: relative;
+      top: 100px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://swap.online/dist/css/swap.css?v=1.93">
+
+<link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="swap.online"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="swap.online"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="assets/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="assets/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="assets/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="assets/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="assets/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="assets/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="assets/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="assets/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="assets/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/apple-touch-startup-image-1536x2008.png"><link rel="icon" type="image/png" sizes="228x228" href="assets/coast-228x228.png"><meta name="msapplication-TileColor" content="#fff"><meta name="msapplication-TileImage" content="assets/mstile-144x144.png"><meta name="msapplication-config" content="assets/browserconfig.xml"><link rel="yandex-tableau-widget" href="assets/yandex-browser-manifest.json"><link href="./app.965312.css" rel="stylesheet"></head>
+
+<body>
+
+  <div class="starter-modal d-none" id="starter-modal">
+    <div class="container">
+      <div class="starter-modal-container d-flex flex-column h-100 justify-content-around">
+        <div class="text-center mb-4 mt-4 position-relative">
+          <span class="swap-wait-loading" id="swap-wait-loading">
+            <div class="swap-ellipsis">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span id="swap-loading-text">Loading... It may take one minute (next time it will be faster)</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="root">
+    <!-- Loader before any JS -->
+    <div class="overlay">
+      <div class="center">
+        <div id="loader" class="loader">
+          <img src="https://wiki.swap.online/assets/swap-logo.png" />
+        </div>
+        <div id="beforeJSTip" class="tips">
+          Do not forget to save your private keys!
+        </div>
+      </div>
+      <div id="usersInform" class="usersInform">
+
+      </div>
+    </div>
+    <script>
+
+      const getNavigatorLanguage = () => {
+        if (navigator.languages && navigator.languages.length) {
+          return navigator.languages[0];
+        } else {
+          return navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        }
+      }
+      
+      function setCookie(name, value, options) {
+        options = options || {};
+        var expires = options.expires;
+        if (typeof expires == "number" && expires) {
+          var d = new Date();
+          d.setTime(d.getTime() + expires * 1000);
+          expires = options.expires = d;
+        }
+        if (expires && expires.toUTCString) {
+          options.expires = expires.toUTCString();
+        }
+
+        value = encodeURIComponent(value);
+        var updatedCookie = name + "=" + value;
+
+        for (var propName in options) {
+          updatedCookie += "; " + propName;
+          var propValue = options[propName];
+          if (propValue !== true) {
+            updatedCookie += "=" + propValue;
+          }
+        }
+        document.cookie = updatedCookie;
+      }
+
+      function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+      var advice = document.getElementById('beforeJSTip');
+      var lang = getCookie('mylang');
+      
+      // detect browser's lang
+      if(!lang) {
+        var browserLang = getNavigatorLanguage();
+        lang = browserLang.indexOf('ru') > -1? 'ru' : 'en';
+        setCookie('mylang', lang);
+      }
+      
+      const locale = lang.toLowerCase()
+      const locationName = lang.toUpperCase()
+      
+      if (locationName === 'ru' || locale === 'ru' && locationName !== 'en') {
+        advice.innerText = 'Не забудьте сохранить свои приватные ключи от кошелька!';
+      }
+
+      var information = document.getElementById('usersInform');
+
+      if ((locationName === 'ru' || locale === 'ru' && locationName !== 'en') && localStorage.length === 0) {
+        information.innerText = 'Генерация приватных ключей для вашего мультивалютного кошелька прямо сейчас, \n то может занять одну минуту';
+      }
+
+      if (localStorage.length === 0) {
+
+        information.innerText = locationName !== 'ru' || locale !== 'ru'
+          ? 'Please wait while the application is loading,\n it may take one minute...'
+          : 'Пожалуйста подождите пока приложение запускается,\n это не займет больше минуты...';
+      }
+
+
+      var styleKostilFirefox = document.createElement('style');
+
+    </script>
+    <script>window.prerenderReady = false;</script>
+    <!-- /Loader before any JS -->
+  </div>
+  <div id="portal"></div>
+<script type="text/javascript" src="./vendor.965312.js"></script><script type="text/javascript" src="./app.965312.js"></script></body>
+
+</html>
