@@ -132,7 +132,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Friday, January 31, 2020 10:49 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://test-insight.swap.online/insight","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Friday, January 31, 2020 10:50 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://test-insight.swap.online/insight","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -1638,14 +1638,14 @@ var linksManager = {
   multisign: '/multisign',
   createInvoice: '/createinvoice',
   // social networks
-  medium: 'https://medium.com/swaponline',
+  medium: '#',
   twitter: 'https://twitter.com/SwapOnlineTeam',
-  facebook: 'https://www.facebook.com/pg/Swaponline-637233326642691',
+  facebook: '#',
   telegram: 'https://t.me/swaponline',
-  bitcointalk: 'https://bitcointalk.org/index.php?topic=4636633.0',
-  discord: 'https://discordapp.com/invite/juG7UZH',
-  reddit: 'https://www.reddit.com/r/SwapOnline',
-  youtube: 'https://www.youtube.com/channel/UCCDWZob9wBsZUpScz2w9_lg',
+  bitcointalk: '#',
+  discord: '#',
+  reddit: '#',
+  youtube: '#',
   // footer links
   etherdelta: 'https://etherdelta.com/#0x14a52cf6b4f68431bd5d9524e4fcd6f41ce4ade9-ETH',
   button: 'https://wiki.swaponline.io/about-swap-online/#b2b',
