@@ -132,7 +132,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Saturday, February 1, 2020 6:06 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Saturday, February 1, 2020 8:09 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -9111,7 +9111,6 @@ function (_PureComponent) {
     key: "render",
     value: function render() {
       var orders = this.props.orders;
-      console.log('orders', orders);
 
       if (orders === null || orders.length === 0) {
         return null;
@@ -12343,10 +12342,10 @@ function (_Component) {
 
       _actions.default.comments.setComment(obj);
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "rowRender", function (row) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "rowRender", function (row, rowIndex) {
       var commentsList = _this.state.commentsList;
       return _react.default.createElement(_Row.default, (0, _extends2.default)({
-        key: row.hash - row.type,
+        key: rowIndex,
         hiddenList: commentsList,
         onSubmit: _this.onSubmit
       }, row));
@@ -12477,15 +12476,45 @@ function (_React$PureComponent) {
 
     (0, _classCallCheck2.default)(this, Row);
     _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Row).call(this));
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getUsdBalance",
+    /*#__PURE__*/
+    function () {
+      var _ref = (0, _asyncToGenerator2.default)(
+      /*#__PURE__*/
+      _regenerator.default.mark(function _callee(type) {
+        return _regenerator.default.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _actions.default.user.getExchangeRate(type, 'usd').then(function (exCurrencyRate) {
+                  _this.setState(function () {
+                    return {
+                      exCurrencyRate: exCurrencyRate
+                    };
+                  });
+                });
+
+              case 1:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }());
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "handlePayInvoice",
     /*#__PURE__*/
     (0, _asyncToGenerator2.default)(
     /*#__PURE__*/
-    _regenerator.default.mark(function _callee() {
+    _regenerator.default.mark(function _callee2() {
       var invoiceData, withdrawModalType, data, btcData, currency, ethData;
-      return _regenerator.default.wrap(function _callee$(_context) {
+      return _regenerator.default.wrap(function _callee2$(_context2) {
         while (1) {
-          switch (_context.prev = _context.next) {
+          switch (_context2.prev = _context2.next) {
             case 0:
               invoiceData = _this.props.invoiceData;
               withdrawModalType = null;
@@ -12526,20 +12555,20 @@ function (_React$PureComponent) {
 
             case 8:
             case "end":
-              return _context.stop();
+              return _context2.stop();
           }
         }
-      }, _callee);
+      }, _callee2);
     })));
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "handleCancelInvoice",
     /*#__PURE__*/
     (0, _asyncToGenerator2.default)(
     /*#__PURE__*/
-    _regenerator.default.mark(function _callee3() {
+    _regenerator.default.mark(function _callee4() {
       var invoiceData;
-      return _regenerator.default.wrap(function _callee3$(_context3) {
+      return _regenerator.default.wrap(function _callee4$(_context4) {
         while (1) {
-          switch (_context3.prev = _context3.next) {
+          switch (_context4.prev = _context4.next) {
             case 0:
               invoiceData = _this.props.invoiceData;
 
@@ -12547,12 +12576,12 @@ function (_React$PureComponent) {
                 onAccept: function () {
                   var _onAccept = (0, _asyncToGenerator2.default)(
                   /*#__PURE__*/
-                  _regenerator.default.mark(function _callee2() {
-                    return _regenerator.default.wrap(function _callee2$(_context2) {
+                  _regenerator.default.mark(function _callee3() {
+                    return _regenerator.default.wrap(function _callee3$(_context3) {
                       while (1) {
-                        switch (_context2.prev = _context2.next) {
+                        switch (_context3.prev = _context3.next) {
                           case 0:
-                            _context2.next = 2;
+                            _context3.next = 2;
                             return _actions.default.invoices.cancelInvoice(invoiceData.id);
 
                           case 2:
@@ -12562,10 +12591,10 @@ function (_React$PureComponent) {
 
                           case 3:
                           case "end":
-                            return _context2.stop();
+                            return _context3.stop();
                         }
                       }
-                    }, _callee2);
+                    }, _callee3);
                   }));
 
                   function onAccept() {
@@ -12578,10 +12607,10 @@ function (_React$PureComponent) {
 
             case 2:
             case "end":
-              return _context3.stop();
+              return _context4.stop();
           }
         }
-      }, _callee3);
+      }, _callee4);
     })));
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "toggleComment", function (val) {
       _this.setState(function () {
@@ -12649,6 +12678,9 @@ function (_React$PureComponent) {
       cancelled: false,
       payed: false
     };
+
+    _this.getUsdBalance(_type);
+
     return _this;
   }
 
@@ -12773,8 +12805,8 @@ function (_React$PureComponent) {
         commentCancel: this.commentCancel,
         ind: ind,
         submit: onSubmit,
-        changeComment: function changeComment(_ref3) {
-          var target = _ref3.target;
+        changeComment: function changeComment(_ref4) {
+          var target = _ref4.target;
           return _this2.changeComment(target.value, ind);
         },
         toggleComment: this.toggleComment
@@ -20103,6 +20135,12 @@ var getTransaction = function getTransaction(ownAddress, ownType) {
     var checkAddress = ownAddress ? ownAddress : address;
     var type = ownType ? ownType : 'btc (sms-protected)';
     var url = "/txs/?address=".concat(checkAddress);
+
+    if (checkAddress === 'Not jointed') {
+      resolve([]);
+      return;
+    }
+
     return _helpers.apiLooper.get('bitpay', url, {
       checkStatus: function checkStatus(answer) {
         try {
@@ -23294,7 +23332,6 @@ var addInvoice = function addInvoice(data) {
       btcData = _getState.user.btcData;
 
   if (!validateData(data)) return false;
-  console.log(_helpers.btc.network);
   var requestData = {
     currency: data.currency,
     toAddress: data.toAddress,
@@ -23343,6 +23380,12 @@ var markInvoice = function markInvoice(invoiceId, mark, txid) {
 
 var getInvoices = function getInvoices(data) {
   if (_appConfig.default && _appConfig.default.isWidget) {
+    return new Promise(function (resolve) {
+      resolve([]);
+    });
+  }
+
+  if (data.address === 'Not jointed') {
     return new Promise(function (resolve) {
       resolve([]);
     });
@@ -37351,7 +37394,9 @@ function (_Component) {
       var linkToTheSwap = "".concat((0, _locale.localisedUrl)(locale, _helpers.links.swap), "/").concat(sellCurrency, "-").concat(buyCurrency, "/").concat(id);
       buyAmount = (0, _bignumber.default)(buyAmount);
       sellAmount = (0, _bignumber.default)(sellAmount);
-      return _react.default.createElement("tr", null, _react.default.createElement("td", null, _react.default.createElement("span", null, "You buy"), isMy ? "".concat(sellAmount.toFixed(5), " ").concat(sellCurrency.toUpperCase()) : "".concat(buyAmount.toFixed(5), " ").concat(buyCurrency.toUpperCase())), _react.default.createElement("td", null, _react.default.createElement("span", null, "You sell"), isMy ? "".concat(buyAmount.toFixed(5), " ").concat(buyCurrency.toUpperCase()) : "".concat(sellAmount.toFixed(5), " ").concat(sellCurrency.toUpperCase())), _react.default.createElement("td", null, _react.default.createElement("span", null, "Status order"), _react.default.createElement("p", null, isFinished && _react.default.createElement(_reactIntl.FormattedMessage, {
+      return _react.default.createElement("tr", {
+        key: id
+      }, _react.default.createElement("td", null, _react.default.createElement("span", null, "You buy"), isMy ? "".concat(sellAmount.toFixed(5), " ").concat(sellCurrency.toUpperCase()) : "".concat(buyAmount.toFixed(5), " ").concat(buyCurrency.toUpperCase())), _react.default.createElement("td", null, _react.default.createElement("span", null, "You sell"), isMy ? "".concat(buyAmount.toFixed(5), " ").concat(buyCurrency.toUpperCase()) : "".concat(sellAmount.toFixed(5), " ").concat(sellCurrency.toUpperCase())), _react.default.createElement("td", null, _react.default.createElement("span", null, "Status order"), _react.default.createElement("p", null, isFinished && _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "RowHistory94",
         defaultMessage: "Finished"
       }), isRefunded && _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -43609,9 +43654,9 @@ function (_Component) {
           locale = _this$props3.intl.locale;
       history.push((0, _locale.localisedUrl)(locale, _helpers.links.pointOfSell));
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "rowRender", function (row) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "rowRender", function (row, rowIndex) {
       return _react.default.createElement(_Row.default, (0, _extends2.default)({
-        key: row.hash
+        key: rowIndex
       }, row));
     });
     _this.state = {
