@@ -132,7 +132,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Thursday, February 6, 2020 4:56 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://test-insight.swap.online/insight","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Friday, February 7, 2020 11:04 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -6519,7 +6519,7 @@ exports.default = void 0;
 var _appConfig = _interopRequireDefault(__webpack_require__(19));
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  false ? 'mainnet' : 'testnet';
+  var configStorage =  true ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem('customERC'));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -9680,7 +9680,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var network =  false ? bitcoin.networks.bitcoin : bitcoin.networks.testnet;
+var network =  true ? bitcoin.networks.bitcoin : bitcoin.networks.testnet;
 var DUST = 546;
 
 var calculateTxSize =
@@ -12008,7 +12008,7 @@ function (_React$PureComponent) {
           bchData = _this$props.bchData,
           ltcData = _this$props.ltcData;
       var isPositiveBalance = btcData.balance > 0 || ethData.balance > 0;
-      var canSubmit = isPositiveBalance && !true;
+      var canSubmit = isPositiveBalance && !false;
 
       if (!canSubmit) {
         return;
@@ -12893,7 +12893,7 @@ exports.default = _default;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"status":"B1fidjHPLhyGcoH8F5fGa","in":"_2WudR1frvBnj9kRO3FA9uG","arrowWrap":"_2ZtiIK3MNLzfrPdj9NR9bH","amount":"z9kssebSLkb8mADtAMWnq","out":"_3MGYaPvMhKsrx0_2-cz4vY","self":"_3MS0sH9FgE888Im5g8g2xg","cell":"_3iy6qiQe218Jih154eQVqE","confirm":"_38S3z2lx-rEz9afrkb9EwC","unconfirmed":"_2NV1PPhBfGGuyaPXmSlHdC","red":"_3EitOOo1lRyTU_A8XwnFZK","green":"_1RCXF-OwSr7B1HY7mxNdci","date":"_3qRLEPOS08JmoONhhzwZEV","address":"qb31A4v3_wPcuRk6u7OaR","amountUsd":"vYdnMoTrMzp21MwqWA9rf","historyInfo":"_8DegK4QSt4Uge7u8tvQVq","info":"YgKzn1hJy3aGY2rWbwSF1","noButtons":"_1CAEtY29lKIjqGgn1A9vfY","comment":"_2xEACUYkNDCkFn1razTQHj","btnWrapper":"_21DXC0zbdv8AGQ3A19RwM_","icon":"_3pEEj8MTTYSzn-t4UI3wER","wrapButtonShare":"_2AQLD8gr4ugAd4usvW_EM6","historyRow":"dtzaHAhIbDqlX5-GVeT2g","smallTooltip":"_1VWtNWrdRIpFguVbFFjSjt","input":"_1m9GCgCW0S2t8QjfalrCbA","submit":"_242JysLjCqRwNfH_8yfbw-","close":"_3WwpAw7B9lJw_hTslXlfDO","historyInvoiceInfo":"_12ebNK544EWCm0wA59ow84","circleIcon":"_2baEQItv0tI6OS12JdH4sE"};
+module.exports = {"status":"B1fidjHPLhyGcoH8F5fGa","in":"_2WudR1frvBnj9kRO3FA9uG","arrowWrap":"_2ZtiIK3MNLzfrPdj9NR9bH","amount":"z9kssebSLkb8mADtAMWnq","out":"_3MGYaPvMhKsrx0_2-cz4vY","self":"_3MS0sH9FgE888Im5g8g2xg","commentTextarea":"_2oe2EUcAkUqazCvSX1Z2R_","cell":"_3iy6qiQe218Jih154eQVqE","confirm":"_38S3z2lx-rEz9afrkb9EwC","unconfirmed":"_2NV1PPhBfGGuyaPXmSlHdC","red":"_3EitOOo1lRyTU_A8XwnFZK","green":"_1RCXF-OwSr7B1HY7mxNdci","date":"_3qRLEPOS08JmoONhhzwZEV","address":"qb31A4v3_wPcuRk6u7OaR","amountUsd":"vYdnMoTrMzp21MwqWA9rf","historyInfo":"_8DegK4QSt4Uge7u8tvQVq","info":"YgKzn1hJy3aGY2rWbwSF1","noButtons":"_1CAEtY29lKIjqGgn1A9vfY","comment":"_2xEACUYkNDCkFn1razTQHj","btnWrapper":"_21DXC0zbdv8AGQ3A19RwM_","icon":"_3pEEj8MTTYSzn-t4UI3wER","wrapButtonShare":"_2AQLD8gr4ugAd4usvW_EM6","historyRow":"dtzaHAhIbDqlX5-GVeT2g","smallTooltip":"_1VWtNWrdRIpFguVbFFjSjt","input":"_1m9GCgCW0S2t8QjfalrCbA","submit":"_242JysLjCqRwNfH_8yfbw-","close":"_3WwpAw7B9lJw_hTslXlfDO","historyInvoiceInfo":"_12ebNK544EWCm0wA59ow84","circleIcon":"_2baEQItv0tI6OS12JdH4sE"};
 
 /***/ }),
 /* 970 */
@@ -14658,7 +14658,7 @@ var SignUpButton = function SignUpButton(_ref) {
   var mobile = _ref.mobile;
   return _react.default.createElement("div", {
     styleName: mobile ? 'mobile' : ''
-  },  true ? _react.default.createElement(_react.Fragment, null, _react.default.createElement("a", {
+  },  false ? _react.default.createElement(_react.Fragment, null, _react.default.createElement("a", {
     href: _helpers.links.main,
     target: "_blank",
     rel: "noreferrer noopener",
@@ -15948,7 +15948,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  false ? 'mainnet' : 'testnet';
+  var configStorage =  true ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem('customERC'));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -16150,7 +16150,7 @@ if (_appConfig.default.isWidget) {
 // eslint-disable-next-line
 
 
-true && initialState.items.unshift({
+false && initialState.items.unshift({
   name: 'BCH',
   title: 'BCH',
   icon: 'bch',
@@ -16920,7 +16920,7 @@ var getExchangeRate = function getExchangeRate(sellCurrency, buyCurrency) {
   });
 };
 
-var getDemoMoney =  false ? function () {} : function () {
+var getDemoMoney =  true ? function () {} : function () {
   // googe bitcoin (or rinkeby) faucet
   _helpers.request.get('https://swap.wpmix.net/demokeys.php', {}).then(function (r) {
     window.localStorage.clear();
@@ -20254,7 +20254,7 @@ function () {
                 address: address,
                 publicKey: publicKey.toString('hex'),
                 checkSign: sign,
-                mainnet:  false ? true : false
+                mainnet:  true ? true : false
               }
             });
 
@@ -20298,7 +20298,7 @@ function () {
                 smsCode: smsCode,
                 publicKey: publicKey.toString('hex'),
                 checkSign: sign,
-                mainnet:  false ? true : false
+                mainnet:  true ? true : false
               }
             });
 
@@ -20676,7 +20676,7 @@ function () {
                 publicKey: publicKey.toString('hex'),
                 checkSign: _getSign,
                 rawTX: txRaw.toHex(),
-                mainnet:  false ? true : false
+                mainnet:  true ? true : false
               }
             });
 
@@ -20717,7 +20717,7 @@ function () {
                 publicKey: publicKey.toString('hex'),
                 checkSign: _getSign,
                 code: smsCode,
-                mainnet:  false ? true : false
+                mainnet:  true ? true : false
               }
             });
 
@@ -22398,7 +22398,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var AddCustomERC20 = function AddCustomERC20(contract, symbol, decimals) {
-  var configStorage =  false ? 'mainnet' : 'testnet';
+  var configStorage =  true ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem(_helpers.constants.localStorage.customERC));
 
   if (!tokensInfo) {
@@ -22417,7 +22417,7 @@ var AddCustomERC20 = function AddCustomERC20(contract, symbol, decimals) {
 };
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  false ? 'mainnet' : 'testnet';
+  var configStorage =  true ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem(_helpers.constants.localStorage.customERC));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -23738,7 +23738,7 @@ var addInvoice = function addInvoice(data) {
     label: data.label ? data.label : '',
     address: btcData.address,
     pubkey: btcData.publicKey.toString('hex'),
-    mainnet:  false ? '1' : '0',
+    mainnet:  true ? '1' : '0',
     destination: data.destination ? data.destination : ''
   };
   return _helpers.apiLooper.post('invoiceApi', "/invoice/push/", {
@@ -23798,7 +23798,7 @@ var getInvoices = function getInvoices(data) {
       body: {
         currency: data.currency,
         address: data.address,
-        mainnet:  false ? '1' : '0'
+        mainnet:  true ? '1' : '0'
       }
     }).then(function (res) {
       if (res && res.answer && res.answer === 'ok') {
@@ -23920,17 +23920,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = {
-  eth: "".concat("testnet", ":eth:privateKey"),
-  btc: "".concat("testnet", ":btc:privateKey"),
-  btcMultisig: "".concat("testnet", ":btcMultisig:privateKey"),
-  btcMultisigOtherOwnerKey: "".concat("testnet", ":btcMultisig:otherOwnerKey"),
-  ethKeychainPublicKey: "".concat("testnet", ":eth:keychainPublicKey"),
-  btcKeychainPublicKey: "".concat("testnet", ":btc:keychainPublicKey"),
-  btcMultisigKeychainPublicKey: "".concat("testnet", ":btcMultisig:keychainPublicKey"),
+  eth: "".concat("mainnet", ":eth:privateKey"),
+  btc: "".concat("mainnet", ":btc:privateKey"),
+  btcMultisig: "".concat("mainnet", ":btcMultisig:privateKey"),
+  btcMultisigOtherOwnerKey: "".concat("mainnet", ":btcMultisig:otherOwnerKey"),
+  ethKeychainPublicKey: "".concat("mainnet", ":eth:keychainPublicKey"),
+  btcKeychainPublicKey: "".concat("mainnet", ":btc:keychainPublicKey"),
+  btcMultisigKeychainPublicKey: "".concat("mainnet", ":btcMultisig:keychainPublicKey"),
   // xlm: `${process.env.ENTRY}:xlm:privateKey`,
-  bch: "".concat("testnet", ":bch:privateKey"),
-  ltc: "".concat("testnet", ":ltc:privateKey"),
-  qtum: "".concat("testnet", ":qtum:privateKey")
+  bch: "".concat("mainnet", ":bch:privateKey"),
+  ltc: "".concat("mainnet", ":ltc:privateKey"),
+  qtum: "".concat("mainnet", ":qtum:privateKey")
 };
 exports.default = _default;
 
@@ -24218,7 +24218,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var networkCoininfo =  false ? _coininfo.default.bitcoincash.main : _coininfo.default.bitcoincash.test;
+var networkCoininfo =  true ? _coininfo.default.bitcoincash.main : _coininfo.default.bitcoincash.test;
 var network = networkCoininfo.toBitcoinJS();
 
 var calculateTxSize =
@@ -24503,7 +24503,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var networkCoininfo =  false ? _coininfo.default.litecoin.main : _coininfo.default.litecoin.test;
+var networkCoininfo =  true ? _coininfo.default.litecoin.main : _coininfo.default.litecoin.test;
 var network = networkCoininfo.toBitcoinJS();
 
 var calculateTxSize =
@@ -34581,7 +34581,7 @@ function (_Component) {
       var isNotTestUser = (0, _user.notTestUnit)(currencyBalance);
       var doesCautionPassed = localStorage.getItem(_helpers.constants.localStorage.wasCautionPassed);
 
-      if (!doesCautionPassed && (hasNonZeroCurrencyBalance || isNotTestUser) && false) {
+      if (!doesCautionPassed && (hasNonZeroCurrencyBalance || isNotTestUser) && true) {
         _actions.default.modals.open(_helpers.constants.modals.PrivateKeys, {});
       }
     });
@@ -34648,7 +34648,7 @@ function (_Component) {
 
       this.checkImportKeyHash();
 
-      if (false) {
+      if (true) {
         localStorage.setItem(_helpers.constants.localStorage.testnetSkip, false);
       } else {
         localStorage.setItem(_helpers.constants.localStorage.testnetSkip, true);
@@ -34669,7 +34669,7 @@ function (_Component) {
       var currencyBalance = this.props.currencyBalance;
       var hasAtLeastTenDollarBalance = (0, _user.hasSignificantBalance)(currencyBalance);
 
-      if (false) {
+      if (true && hasAtLeastTenDollarBalance) {
         this.setState({
           isShowingPromoText: true
         });
@@ -36786,7 +36786,7 @@ function (_Component) {
       var desclineOrders = this.state.desclineOrders;
       return _react.default.createElement("div", {
         styleName: "WithdrawButtonContainer"
-      }, true && !_reactDeviceDetect.isMobile && _react.default.createElement(_controls.WithdrawButton, {
+      }, false && !_reactDeviceDetect.isMobile && _react.default.createElement(_controls.WithdrawButton, {
         onClick: this.handleClear
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "KeyActionsPanel43",
@@ -36953,7 +36953,7 @@ function (_React$Component) {
       var intl = this.props.intl;
       return _react.default.createElement(_Overlay.default, null, _react.default.createElement(_Center.default, {
         keepFontSize: true
-      }, _react.default.createElement(_react.default.Fragment, null, true && _react.default.createElement("a", {
+      }, _react.default.createElement(_react.default.Fragment, null, false && _react.default.createElement("a", {
         href: "#",
         onClick: function onClick() {
           localStorage.setItem(_helpers.constants.localStorage.testnetSkipPKCheck, true);
@@ -37563,6 +37563,18 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(2));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(3));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(6));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(5));
+
+var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(12));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(7));
+
 var _defineProperty2 = _interopRequireDefault(__webpack_require__(10));
 
 var _react = _interopRequireDefault(__webpack_require__(4));
@@ -37573,71 +37585,99 @@ var _reactCssModules = _interopRequireDefault(__webpack_require__(8));
 
 var _momentWithLocalesEs = _interopRequireDefault(__webpack_require__(600));
 
-var _actions = _interopRequireDefault(__webpack_require__(16));
-
 var _Row = _interopRequireDefault(__webpack_require__(969));
+
+var _dec, _class, _class2, _temp;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-var submitComment = function submitComment(e, props) {
-  var comment = props.comment,
-      toggleComment = props.toggleComment,
-      onSubmit = props.onSubmit,
-      hiddenList = props.hiddenList,
-      ind = props.ind;
-  e.preventDefault();
-
-  var comments = _objectSpread({}, hiddenList, (0, _defineProperty2.default)({}, ind, comment));
-
-  onSubmit(comments);
-  toggleComment(false);
-};
-
-var CommentRow = function CommentRow(props) {
-  var comment = props.comment,
-      label = props.label,
-      toggleComment = props.toggleComment,
-      changeComment = props.changeComment,
-      date = props.date,
-      isOpen = props.isOpen,
-      commentCancel = props.commentCancel;
-  return isOpen ? _react.default.createElement("form", {
-    styleName: "input",
-    onSubmit: function onSubmit(e) {
-      return submitComment(e, props);
-    }
-  }, _react.default.createElement("textarea", {
-    onChange: changeComment
-  }, comment || "".concat((0, _momentWithLocalesEs.default)(date).format('LLLL'), "  ").concat(label)), _react.default.createElement("span", {
-    styleName: "submit",
-    onClick: function onClick(e) {
-      return submitComment(e, props);
-    }
-  }, "\u2714"), _react.default.createElement("span", {
-    styleName: "close",
-    onClick: commentCancel
-  }, "\xD7")) : _react.default.createElement("div", {
-    styleName: "date",
-    onDoubleClick: function onDoubleClick() {
-      return toggleComment(true);
-    }
-  }, comment || "".concat((0, _momentWithLocalesEs.default)(date).format('LLLL'), "  ").concat(label));
-};
-
-CommentRow.defaultProps = {
-  label: ''
-};
-CommentRow.propTypes = {
-  label: _propTypes.default.string.isRequired
-};
-
-var _default = (0, _reactCssModules.default)(CommentRow, _Row.default, {
+var CommentRow = (_dec = (0, _reactCssModules.default)(_Row.default, {
   allowMultiple: true
-});
+}), _dec(_class = (_temp = _class2 =
+/*#__PURE__*/
+function (_React$Component) {
+  (0, _inherits2.default)(CommentRow, _React$Component);
 
-exports.default = _default;
+  function CommentRow(_props) {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, CommentRow);
+    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(CommentRow).call(this, _props));
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "submitComment", function (e, props) {
+      var comment = props.comment,
+          toggleComment = props.toggleComment,
+          onSubmit = props.onSubmit,
+          hiddenList = props.hiddenList,
+          ind = props.ind;
+      e.preventDefault();
+
+      var comments = _objectSpread({}, hiddenList, (0, _defineProperty2.default)({}, ind, comment));
+
+      onSubmit(comments);
+      toggleComment(false);
+    });
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "handleKeyUp", function () {
+      _this.commentTextarea.current.style.cssText = 'height:' + _this.commentTextarea.current.scrollHeight + 'px;';
+    });
+    _this.commentTextarea = _react.default.createRef();
+    return _this;
+  }
+
+  (0, _createClass2.default)(CommentRow, [{
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.isOpen && this.props.isOpen !== prevProps.isOpen) {
+        this.handleKeyUp();
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var _this$props = this.props,
+          comment = _this$props.comment,
+          label = _this$props.label,
+          toggleComment = _this$props.toggleComment,
+          changeComment = _this$props.changeComment,
+          date = _this$props.date,
+          isOpen = _this$props.isOpen,
+          commentCancel = _this$props.commentCancel;
+      return isOpen ? _react.default.createElement("form", {
+        styleName: "input",
+        onSubmit: function onSubmit(e) {
+          return _this2.submitComment(e, _this2.props);
+        }
+      }, _react.default.createElement("textarea", {
+        ref: this.commentTextarea,
+        styleName: "commentTextarea",
+        id: "commentTextarea",
+        onKeyUp: this.handleKeyUp,
+        onChange: changeComment,
+        value: comment || "".concat((0, _momentWithLocalesEs.default)(date).format('LLLL'), "  ").concat(label)
+      }), _react.default.createElement("span", {
+        styleName: "submit",
+        onClick: function onClick(e) {
+          return _this2.submitComment(e, _this2.props);
+        }
+      }, "\u2714"), _react.default.createElement("span", {
+        styleName: "close",
+        onClick: commentCancel
+      }, "\xD7")) : _react.default.createElement("div", {
+        styleName: "date",
+        onDoubleClick: function onDoubleClick() {
+          return toggleComment(true);
+        }
+      }, comment || "".concat((0, _momentWithLocalesEs.default)(date).format('LLLL'), "  ").concat(label));
+    }
+  }]);
+  return CommentRow;
+}(_react.default.Component), (0, _defineProperty2.default)(_class2, "propTypes", {
+  label: _propTypes.default.string.isRequired
+}), _temp)) || _class);
+exports.default = CommentRow;
 
 /***/ }),
 /* 2275 */
@@ -45595,7 +45635,7 @@ function (_React$Component) {
   }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate() {
-      if (false) {
+      if (true) {
         _helpers.firebase.setUserLastOnline();
       }
     }
@@ -45791,7 +45831,7 @@ if (_appConfig.default && _appConfig.default.isWidget) {
 
 var createSwapApp = function createSwapApp() {
   _swap.default.setup({
-    network:  false ? 'mainnet' : 'testnet',
+    network:  true ? 'mainnet' : 'testnet',
     env: {
       web3: _web.default,
       bitcoin: bitcoin,
@@ -78425,7 +78465,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 var serviceURLMainnet = 'https://api.etherscan.io/api?module=proxy&action=eth_call';
 var serviceURLTestnet = 'https://api-rinkeby.etherscan.io/api?module=proxy&action=eth_call';
-var serviceURL =  false ? serviceURLMainnet : serviceURLTestnet;
+var serviceURL =  true ? serviceURLMainnet : serviceURLTestnet;
 var nameSignature = '0x06fdde03';
 var decimalsSignature = '0x313ce567';
 var symbolSignature = '0x95d89b41';
