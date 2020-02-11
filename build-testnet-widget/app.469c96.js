@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Tuesday, February 11, 2020 7:09 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Tuesday, February 11, 2020 8:56 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://test-insight.swap.online/insight","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -6527,7 +6527,7 @@ exports.default = void 0;
 var _appConfig = _interopRequireDefault(__webpack_require__(18));
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  true ? 'mainnet' : 'testnet';
+  var configStorage =  false ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem('customERC'));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -9688,7 +9688,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var network =  true ? bitcoin.networks.bitcoin : bitcoin.networks.testnet;
+var network =  false ? bitcoin.networks.bitcoin : bitcoin.networks.testnet;
 var DUST = 546;
 
 var calculateTxSize =
@@ -12027,7 +12027,7 @@ function (_React$PureComponent) {
           bchData = _this$props.bchData,
           ltcData = _this$props.ltcData;
       var isPositiveBalance = btcData.balance > 0 || ethData.balance > 0;
-      var canSubmit = isPositiveBalance && !false;
+      var canSubmit = isPositiveBalance && !true;
 
       if (!canSubmit) {
         return;
@@ -13201,28 +13201,7 @@ var _default = function _default(props) {
       isClosedNotifyBlockBanner = props.isClosedNotifyBlockBanner,
       handleNotifyBlockClose = props.handleNotifyBlockClose,
       host = props.host;
-  return _react.default.createElement(_reactSlick.default, settings, !isPrivateKeysSaved && _react.default.createElement(_NotifyBock.default, {
-    className: "notifyBlockSaveKeys",
-    descr: _react.default.createElement(_reactIntl.FormattedMessage, {
-      id: "descr279",
-      defaultMessage: "Before you continue be sure to save your private keys!"
-    }),
-    tooltip: _react.default.createElement(_reactIntl.FormattedMessage, {
-      id: "descr280",
-      defaultMessage: "We do not store your private keys and will not be able to restore them"
-    }),
-    icon: _security.default,
-    firstBtn: _react.default.createElement(_reactIntl.FormattedMessage, {
-      id: "descr282",
-      defaultMessage: "Show my keys"
-    }),
-    firstFunc: handleShowKeys,
-    secondBtn: _react.default.createElement(_reactIntl.FormattedMessage, {
-      id: "descr284",
-      defaultMessage: "I saved my keys"
-    }),
-    secondFunc: handleSaveKeys
-  }), (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
+  return _react.default.createElement(_reactSlick.default, settings, (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
     className: "notifyBlockBanner",
     descr: _react.default.createElement(_reactIntl.FormattedMessage, {
       id: "descr295",
@@ -13324,21 +13303,12 @@ var NotifyBlock = function NotifyBlock(_ref) {
       firstFunc = _ref.firstFunc,
       secondFunc = _ref.secondFunc;
   return _react.default.createElement("div", {
-    styleName: "notifyBlock ".concat(className)
-  }, _react.default.createElement("div", null, _react.default.createElement("div", {
-    styleName: "notifyBlockIcon"
-  }, _react.default.createElement("img", {
-    src: icon,
-    alt: ""
-  })), _react.default.createElement("div", {
+    styleName: "notifyBlock"
+  }, _react.default.createElement("div", {
+    styleName: "notifyBlockImg ".concat(className)
+  }), _react.default.createElement("div", {
     styleName: "notifyBlockDescr"
-  }, _react.default.createElement("p", null, descr), _react.default.createElement("p", null, tooltip))), _react.default.createElement("div", null, firstBtn && _react.default.createElement(_Button.default, {
-    white: true,
-    onClick: firstFunc
-  }, firstBtn), secondBtn && _react.default.createElement(_Button.default, {
-    transparent: true,
-    onClick: secondFunc
-  }, secondBtn)));
+  }, _react.default.createElement("p", null, descr)));
 };
 
 var _default = (0, _reactCssModules.default)(NotifyBlock, _NotifyBlock.default, {
@@ -14677,7 +14647,7 @@ var SignUpButton = function SignUpButton(_ref) {
   var mobile = _ref.mobile;
   return _react.default.createElement("div", {
     styleName: mobile ? 'mobile' : ''
-  },  false ? _react.default.createElement(_react.Fragment, null, _react.default.createElement("a", {
+  },  true ? _react.default.createElement(_react.Fragment, null, _react.default.createElement("a", {
     href: _helpers.links.main,
     target: "_blank",
     rel: "noreferrer noopener",
@@ -15967,7 +15937,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  true ? 'mainnet' : 'testnet';
+  var configStorage =  false ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem('customERC'));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -16169,7 +16139,7 @@ if (_appConfig.default.isWidget) {
 // eslint-disable-next-line
 
 
-false && initialState.items.unshift({
+true && initialState.items.unshift({
   name: 'BCH',
   title: 'BCH',
   icon: 'bch',
@@ -16939,7 +16909,7 @@ var getExchangeRate = function getExchangeRate(sellCurrency, buyCurrency) {
   });
 };
 
-var getDemoMoney =  true ? function () {} : function () {
+var getDemoMoney =  false ? function () {} : function () {
   // googe bitcoin (or rinkeby) faucet
   _helpers.request.get('https://swap.wpmix.net/demokeys.php', {}).then(function (r) {
     window.localStorage.clear();
@@ -20273,7 +20243,7 @@ function () {
                 address: address,
                 publicKey: publicKey.toString('hex'),
                 checkSign: sign,
-                mainnet:  true ? true : false
+                mainnet:  false ? true : false
               }
             });
 
@@ -20317,7 +20287,7 @@ function () {
                 smsCode: smsCode,
                 publicKey: publicKey.toString('hex'),
                 checkSign: sign,
-                mainnet:  true ? true : false
+                mainnet:  false ? true : false
               }
             });
 
@@ -20695,7 +20665,7 @@ function () {
                 publicKey: publicKey.toString('hex'),
                 checkSign: _getSign,
                 rawTX: txRaw.toHex(),
-                mainnet:  true ? true : false
+                mainnet:  false ? true : false
               }
             });
 
@@ -20736,7 +20706,7 @@ function () {
                 publicKey: publicKey.toString('hex'),
                 checkSign: _getSign,
                 code: smsCode,
-                mainnet:  true ? true : false
+                mainnet:  false ? true : false
               }
             });
 
@@ -22417,7 +22387,7 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 var AddCustomERC20 = function AddCustomERC20(contract, symbol, decimals) {
-  var configStorage =  true ? 'mainnet' : 'testnet';
+  var configStorage =  false ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem(_helpers.constants.localStorage.customERC));
 
   if (!tokensInfo) {
@@ -22436,7 +22406,7 @@ var AddCustomERC20 = function AddCustomERC20(contract, symbol, decimals) {
 };
 
 var GetCustromERC20 = function GetCustromERC20() {
-  var configStorage =  true ? 'mainnet' : 'testnet';
+  var configStorage =  false ? 'mainnet' : 'testnet';
   var tokensInfo = JSON.parse(localStorage.getItem(_helpers.constants.localStorage.customERC));
   if (!tokensInfo || !tokensInfo[configStorage]) return {};
   return tokensInfo[configStorage];
@@ -23757,7 +23727,7 @@ var addInvoice = function addInvoice(data) {
     label: data.label ? data.label : '',
     address: btcData.address,
     pubkey: btcData.publicKey.toString('hex'),
-    mainnet:  true ? '1' : '0',
+    mainnet:  false ? '1' : '0',
     destination: data.destination ? data.destination : ''
   };
   return _helpers.apiLooper.post('invoiceApi', "/invoice/push/", {
@@ -23817,7 +23787,7 @@ var getInvoices = function getInvoices(data) {
       body: {
         currency: data.currency,
         address: data.address,
-        mainnet:  true ? '1' : '0'
+        mainnet:  false ? '1' : '0'
       }
     }).then(function (res) {
       if (res && res.answer && res.answer === 'ok') {
@@ -23940,17 +23910,17 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = {
-  eth: "".concat("mainnet", ":eth:privateKey"),
-  btc: "".concat("mainnet", ":btc:privateKey"),
-  btcMultisig: "".concat("mainnet", ":btcMultisig:privateKey"),
-  btcMultisigOtherOwnerKey: "".concat("mainnet", ":btcMultisig:otherOwnerKey"),
-  ethKeychainPublicKey: "".concat("mainnet", ":eth:keychainPublicKey"),
-  btcKeychainPublicKey: "".concat("mainnet", ":btc:keychainPublicKey"),
-  btcMultisigKeychainPublicKey: "".concat("mainnet", ":btcMultisig:keychainPublicKey"),
+  eth: "".concat("testnet", ":eth:privateKey"),
+  btc: "".concat("testnet", ":btc:privateKey"),
+  btcMultisig: "".concat("testnet", ":btcMultisig:privateKey"),
+  btcMultisigOtherOwnerKey: "".concat("testnet", ":btcMultisig:otherOwnerKey"),
+  ethKeychainPublicKey: "".concat("testnet", ":eth:keychainPublicKey"),
+  btcKeychainPublicKey: "".concat("testnet", ":btc:keychainPublicKey"),
+  btcMultisigKeychainPublicKey: "".concat("testnet", ":btcMultisig:keychainPublicKey"),
   // xlm: `${process.env.ENTRY}:xlm:privateKey`,
-  bch: "".concat("mainnet", ":bch:privateKey"),
-  ltc: "".concat("mainnet", ":ltc:privateKey"),
-  qtum: "".concat("mainnet", ":qtum:privateKey")
+  bch: "".concat("testnet", ":bch:privateKey"),
+  ltc: "".concat("testnet", ":ltc:privateKey"),
+  qtum: "".concat("testnet", ":qtum:privateKey")
 };
 exports.default = _default;
 
@@ -24238,7 +24208,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var networkCoininfo =  true ? _coininfo.default.bitcoincash.main : _coininfo.default.bitcoincash.test;
+var networkCoininfo =  false ? _coininfo.default.bitcoincash.main : _coininfo.default.bitcoincash.test;
 var network = networkCoininfo.toBitcoinJS();
 
 var calculateTxSize =
@@ -24523,7 +24493,7 @@ var _request = _interopRequireDefault(__webpack_require__(272));
 
 var _bignumber = _interopRequireDefault(__webpack_require__(28));
 
-var networkCoininfo =  true ? _coininfo.default.litecoin.main : _coininfo.default.litecoin.test;
+var networkCoininfo =  false ? _coininfo.default.litecoin.main : _coininfo.default.litecoin.test;
 var network = networkCoininfo.toBitcoinJS();
 
 var calculateTxSize =
@@ -34601,7 +34571,7 @@ function (_Component) {
       var isNotTestUser = (0, _user.notTestUnit)(currencyBalance);
       var doesCautionPassed = localStorage.getItem(_helpers.constants.localStorage.wasCautionPassed);
 
-      if (!doesCautionPassed && (hasNonZeroCurrencyBalance || isNotTestUser) && true) {
+      if (!doesCautionPassed && (hasNonZeroCurrencyBalance || isNotTestUser) && false) {
         _actions.default.modals.open(_helpers.constants.modals.PrivateKeys, {});
       }
     });
@@ -34668,7 +34638,7 @@ function (_Component) {
 
       this.checkImportKeyHash();
 
-      if (true) {
+      if (false) {
         localStorage.setItem(_helpers.constants.localStorage.testnetSkip, false);
       } else {
         localStorage.setItem(_helpers.constants.localStorage.testnetSkip, true);
@@ -34689,7 +34659,7 @@ function (_Component) {
       var currencyBalance = this.props.currencyBalance;
       var hasAtLeastTenDollarBalance = (0, _user.hasSignificantBalance)(currencyBalance);
 
-      if (true && hasAtLeastTenDollarBalance) {
+      if (false) {
         this.setState({
           isShowingPromoText: true
         });
@@ -36806,7 +36776,7 @@ function (_Component) {
       var desclineOrders = this.state.desclineOrders;
       return _react.default.createElement("div", {
         styleName: "WithdrawButtonContainer"
-      }, false && !_reactDeviceDetect.isMobile && _react.default.createElement(_controls.WithdrawButton, {
+      }, true && !_reactDeviceDetect.isMobile && _react.default.createElement(_controls.WithdrawButton, {
         onClick: this.handleClear
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "KeyActionsPanel43",
@@ -36973,7 +36943,7 @@ function (_React$Component) {
       var intl = this.props.intl;
       return _react.default.createElement(_Overlay.default, null, _react.default.createElement(_Center.default, {
         keepFontSize: true
-      }, _react.default.createElement(_react.default.Fragment, null, false && _react.default.createElement("a", {
+      }, _react.default.createElement(_react.default.Fragment, null, true && _react.default.createElement("a", {
         href: "#",
         onClick: function onClick() {
           localStorage.setItem(_helpers.constants.localStorage.testnetSkipPKCheck, true);
@@ -39508,11 +39478,11 @@ function (_Component) {
     });
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "checkBalance", function () {
       // that is for noxon, dont delete it :)
-      var now = (0, _moment.default)().format('HH:mm:ss DD/MM/YYYY');
+      var now = (0, _moment.default)().format("HH:mm:ss DD/MM/YYYY");
       var lastCheck = localStorage.getItem(_helpers.constants.localStorage.lastCheckBalance) || now;
-      var lastCheckMoment = (0, _moment.default)(lastCheck, 'HH:mm:ss DD/MM/YYYY');
-      var isFirstCheck = (0, _moment.default)(now, 'HH:mm:ss DD/MM/YYYY').isSame(lastCheckMoment);
-      var isOneHourAfter = (0, _moment.default)(now, 'HH:mm:ss DD/MM/YYYY').isAfter(lastCheckMoment.add(1, 'hours'));
+      var lastCheckMoment = (0, _moment.default)(lastCheck, "HH:mm:ss DD/MM/YYYY");
+      var isFirstCheck = (0, _moment.default)(now, "HH:mm:ss DD/MM/YYYY").isSame(lastCheckMoment);
+      var isOneHourAfter = (0, _moment.default)(now, "HH:mm:ss DD/MM/YYYY").isAfter(lastCheckMoment.add(1, "hours"));
       var _this$props$tokensDat = _this.props.tokensData,
           ethData = _this$props$tokensDat.ethData,
           btcData = _this$props$tokensDat.btcData,
@@ -39592,9 +39562,7 @@ function (_Component) {
         speed: 500,
         autoplay: true,
         autoplaySpeed: 6000,
-        fade: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 3
       };
       var btcBalance = 0;
       var usdBalance = 0;
@@ -39756,7 +39724,7 @@ module.exports = "./images/info-solid_cf8465.svg";
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"notifyBlock":"_2N8HWXf57N_4o376HYRSDl","notifyBlockSaveKeys":"f4QCZyUr5wVGeUflbheCQ","notifyBlockSignUp":"_32Jp7yBPK3xDSymwucETe7","notifyBlockBanner":"pvtFNb0zX36_j8izH-Bfj","notifyBlockIcon":"_1RDsLNLsATr3fWm3SFcb-z","notifyBlockDescr":"_3VjxxmFI3Zjvy2vD31aQVp"};
+module.exports = {"notifyBlock":"_2N8HWXf57N_4o376HYRSDl","notifyBlockImg":"_1mE8j3-Wr_hWK3ogMhsshr","notifyBlockSaveKeys":"f4QCZyUr5wVGeUflbheCQ","notifyBlockSignUp":"_32Jp7yBPK3xDSymwucETe7","notifyBlockBanner":"pvtFNb0zX36_j8izH-Bfj","notifyBlockIcon":"_1RDsLNLsATr3fWm3SFcb-z","notifyBlockDescr":"_3VjxxmFI3Zjvy2vD31aQVp"};
 
 /***/ }),
 /* 2316 */
@@ -45666,7 +45634,7 @@ function (_React$Component) {
   }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate() {
-      if (true) {
+      if (false) {
         _helpers.firebase.setUserLastOnline();
       }
     }
@@ -45862,7 +45830,7 @@ if (_appConfig.default && _appConfig.default.isWidget) {
 
 var createSwapApp = function createSwapApp() {
   _swap.default.setup({
-    network:  true ? 'mainnet' : 'testnet',
+    network:  false ? 'mainnet' : 'testnet',
     env: {
       web3: _web.default,
       bitcoin: bitcoin,
@@ -78518,7 +78486,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 var serviceURLMainnet = 'https://api.etherscan.io/api?module=proxy&action=eth_call';
 var serviceURLTestnet = 'https://api-rinkeby.etherscan.io/api?module=proxy&action=eth_call';
-var serviceURL =  true ? serviceURLMainnet : serviceURLTestnet;
+var serviceURL =  false ? serviceURLMainnet : serviceURLTestnet;
 var nameSignature = '0x06fdde03';
 var decimalsSignature = '0x313ce567';
 var symbolSignature = '0x95d89b41';
