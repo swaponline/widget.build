@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Tuesday, February 11, 2020 9:20 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Tuesday, February 11, 2020 9:53 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -13201,7 +13201,7 @@ var _default = function _default(props) {
       isClosedNotifyBlockBanner = props.isClosedNotifyBlockBanner,
       handleNotifyBlockClose = props.handleNotifyBlockClose,
       host = props.host;
-  return _react.default.createElement(_reactSlick.default, settings, (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
+  return _react.default.createElement(_reactSlick.default, settings, (host === "localhost" || host === "swaponline.github.io" || host === "swaponline.io") && _react.default.createElement(_NotifyBock.default, {
     className: "notifyBlockBanner",
     descr: _react.default.createElement(_reactIntl.FormattedMessage, {
       id: "descr295",
@@ -13216,7 +13216,7 @@ var _default = function _default(props) {
     secondFunc: function secondFunc() {
       return handleNotifyBlockClose("isClosedNotifyBlockSignUp");
     }
-  }), (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
+  }), (host === "localhost" || host === "swaponline.github.io" || host === "swaponline.io") && _react.default.createElement(_NotifyBock.default, {
     className: "notifyBlockBanner",
     descr: _react.default.createElement(_reactIntl.FormattedMessage, {
       id: "descr297",
@@ -13231,7 +13231,7 @@ var _default = function _default(props) {
     secondFunc: function secondFunc() {
       return handleNotifyBlockClose("isClosedNotifyBlockSignUp");
     }
-  }), (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
+  }), (host === "localhost" || host === "swaponline.github.io" || host === "swaponline.io") && _react.default.createElement(_NotifyBock.default, {
     className: "notifyBlockBanner",
     descr: _react.default.createElement(_reactIntl.FormattedMessage, {
       id: "descr299",
@@ -13246,7 +13246,22 @@ var _default = function _default(props) {
     secondFunc: function secondFunc() {
       return handleNotifyBlockClose("isClosedNotifyBlockSignUp");
     }
-  }), (host === "localhost" || host === "swaponline.github.io") && _react.default.createElement(_NotifyBock.default, {
+  }), (host === "localhost" || host === "swaponline.github.io" || host === "swaponline.io") && _react.default.createElement(_NotifyBock.default, {
+    className: "notifyBlockBanner",
+    descr: _react.default.createElement(_reactIntl.FormattedMessage, {
+      id: "descr304",
+      defaultMessage: "Store Bitcoin and other cryptocurrencies without installing a wallet"
+    }),
+    tooltip: _react.default.createElement(_reactIntl.FormattedMessage, {
+      id: "descr305",
+      defaultMessage: "Secured transactions with SMS verification. Exchange cryptocurrencies with no threat of hold (Atomic Swap). [Start exchanging]"
+    }),
+    icon: _infoSolid.default,
+    firstFunc: handleSignUp,
+    secondFunc: function secondFunc() {
+      return handleNotifyBlockClose("isClosedNotifyBlockSignUp");
+    }
+  }), (host === "localhost" || host === "swaponline.github.io" || host === "swaponline.io") && _react.default.createElement(_NotifyBock.default, {
     className: "notifyBlockBanner",
     descr: _react.default.createElement(_reactIntl.FormattedMessage, {
       id: "descr304",
@@ -13303,10 +13318,8 @@ var NotifyBlock = function NotifyBlock(_ref) {
       firstFunc = _ref.firstFunc,
       secondFunc = _ref.secondFunc;
   return _react.default.createElement("div", {
-    styleName: "notifyBlock"
+    styleName: "notifyBlock ".concat(className)
   }, _react.default.createElement("div", {
-    styleName: "notifyBlockImg ".concat(className)
-  }), _react.default.createElement("div", {
     styleName: "notifyBlockDescr"
   }, _react.default.createElement("p", null, descr)));
 };
@@ -39562,7 +39575,7 @@ function (_Component) {
         speed: 500,
         autoplay: true,
         autoplaySpeed: 6000,
-        slidesToShow: 3
+        slidesToShow: 4
       };
       var btcBalance = 0;
       var usdBalance = 0;
@@ -39724,7 +39737,7 @@ module.exports = "./images/info-solid_cf8465.svg";
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"notifyBlock":"_2N8HWXf57N_4o376HYRSDl","notifyBlockImg":"_1mE8j3-Wr_hWK3ogMhsshr","notifyBlockSaveKeys":"f4QCZyUr5wVGeUflbheCQ","notifyBlockSignUp":"_32Jp7yBPK3xDSymwucETe7","notifyBlockBanner":"pvtFNb0zX36_j8izH-Bfj","notifyBlockIcon":"_1RDsLNLsATr3fWm3SFcb-z","notifyBlockDescr":"_3VjxxmFI3Zjvy2vD31aQVp"};
+module.exports = {"notifyBlock":"_2N8HWXf57N_4o376HYRSDl","notifyBlockSaveKeys":"f4QCZyUr5wVGeUflbheCQ","notifyBlockSignUp":"_32Jp7yBPK3xDSymwucETe7","notifyBlockBanner":"pvtFNb0zX36_j8izH-Bfj","notifyBlockBannerInvest":"_2Fu8XttsFKTdfRe42BvWDz","notifyBlockIcon":"_1RDsLNLsATr3fWm3SFcb-z","notifyBlockDescr":"_3VjxxmFI3Zjvy2vD31aQVp"};
 
 /***/ }),
 /* 2316 */
@@ -66825,7 +66838,7 @@ function (_Component) {
       })), _react.default.createElement(_WidthContainer.default, {
         styleName: "container",
         className: "data-tut-preview"
-      }, window.location.hostname === "localhost" || window.location.hostname === "swaponline.io" ? _react.default.createElement(_LogoTooltip.default, {
+      }, window.location.hostname === "localhost" || window.location.hostname === "swaponline.github.io" || window.location.hostname === "swaponline.io" ? _react.default.createElement(_LogoTooltip.default, {
         withLink: true,
         isColored: true,
         isExchange: isWalletPage
