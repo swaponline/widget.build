@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Friday, February 14, 2020 8:22 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Friday, February 14, 2020 11:24 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -38424,26 +38424,13 @@ var _Explanation = _interopRequireDefault(__webpack_require__(969));
 
 var _images = _interopRequireDefault(__webpack_require__(971));
 
+var _appConfig = _interopRequireDefault(__webpack_require__(18));
+
 var _texts = _interopRequireWildcard(__webpack_require__(972));
 
 var _dec, _dec2, _class, _temp;
 
-var defaultStartPack = [{
-  name: "BTC",
-  capture: "Bitcoin"
-}, {
-  name: "ETH",
-  capture: "Ethereum"
-}, {
-  name: "SWAP",
-  capture: "Swap"
-}, {
-  name: "USDT",
-  capture: "Tether"
-}, {
-  name: "EURS",
-  capture: "Eurs"
-}];
+var isWidgetBuild = _appConfig.default && _appConfig.default.isWidget;
 var CreateWallet = (_dec = (0, _redaction.connect)(function (_ref) {
   var currencies = _ref.currencies.items;
   return {
@@ -38461,6 +38448,29 @@ function (_Component) {
 
     (0, _classCallCheck2.default)(this, CreateWallet);
     _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(CreateWallet).call(this));
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "defaultStartPack", [{
+      name: "BTC",
+      capture: "Bitcoin"
+    }, {
+      name: "ETH",
+      capture: "Ethereum"
+    }, {
+      name: "SWAP",
+      capture: "Swap"
+    }, {
+      name: "USDT",
+      capture: "Tether"
+    }, {
+      name: "EURS",
+      capture: "Eurs"
+    }]);
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "widgetStartPack", [{
+      name: "BTC",
+      capture: "Bitcoin"
+    }, {
+      name: "ETH",
+      capture: "Ethereum"
+    }]);
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "handleClick", function (name) {
       var setError = _this.props.setError;
       var curState = _this.state.curState;
@@ -38484,7 +38494,7 @@ function (_Component) {
           coins = _this$state.coins,
           startPack = _this$state.startPack,
           all = _this$state.all;
-      var newStartPack = defaultStartPack;
+      var newStartPack = _this.defaultStartPack;
 
       if (!all) {
         newStartPack = [{
@@ -38509,7 +38519,8 @@ function (_Component) {
           name = _ref2.name;
       return addAssets;
     });
-    var untouchable = defaultStartPack.map(function (_ref3) {
+
+    var untouchable = _this.defaultStartPack.map(function (_ref3) {
       var name = _ref3.name;
       return name;
     });
@@ -38531,10 +38542,33 @@ function (_Component) {
       var currency = _ref6.currency;
       _curState[currency] = false;
     });
+
+    if (isWidgetBuild && _appConfig.default && _appConfig.default.erc20) {
+      if (window && window.widgetERC20Tokens && Object.keys(window.widgetERC20Tokens).length) {
+        // Multi token build
+        Object.keys(window.widgetERC20Tokens).forEach(function (tokenSymbol) {
+          if (_appConfig.default.erc20[tokenSymbol]) {
+            _this.widgetStartPack.push({
+              name: tokenSymbol.toUpperCase(),
+              capture: _appConfig.default.erc20[tokenSymbol].fullName
+            });
+          }
+        });
+      } else {
+        // Single token build
+        if (_appConfig.default.erc20[_appConfig.default.erc20token]) {
+          _this.widgetStartPack.push({
+            name: _appConfig.default.erc20token.toUpperCase(),
+            capture: _appConfig.default.erc20[_appConfig.default.erc20token].fullName
+          });
+        }
+      }
+    }
+
     _this.state = {
       curState: _curState,
       coins: _coins,
-      startPack: defaultStartPack
+      startPack: isWidgetBuild ? _this.widgetStartPack : _this.defaultStartPack
     };
     return _this;
   }
@@ -38555,7 +38589,7 @@ function (_Component) {
       return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement(_Explanation.default, {
         step: 1,
         subHeaderText: (0, _texts.subHeaderText1)()
-      }, _react.default.createElement(_texts.default, {
+      }, !isWidgetBuild && _react.default.createElement(_texts.default, {
         click: this.etcClick,
         step: 1
       })), _react.default.createElement("div", {
@@ -39100,7 +39134,7 @@ var Wallet = (_dec = (0, _redaction.connect)(function (_ref) {
     currencies: currencies,
     assets: assets,
     isFetching: isFetching,
-    hiddenCoinsList: _appConfig.default && _appConfig.default.isWidget ? [] : hiddenCoinsList,
+    hiddenCoinsList: hiddenCoinsList,
     userEthAddress: ethData.address,
     tokensData: {
       ethData: ethData,
@@ -39366,16 +39400,21 @@ function (_Component) {
       };
       var btcBalance = 0;
       var usdBalance = 0;
-      var changePercent = 0;
-      var widgetCurrencies = isWidgetBuild ? ['BTC', 'ETH', _appConfig.default.erc20token.toUpperCase()] : [];
+      var changePercent = 0; // Набор валют для виджета
 
-      if (window.widgetERC20Tokens) {
-        // Multi token widget build
-        if (Object.keys(window.widgetERC20Tokens).length) {
-          widgetCurrencies = ['BTC', 'ETH'];
+      var widgetCurrencies = ['BTC'];
+      if (!hiddenCoinsList.includes('BTC (SMS-Protected)')) widgetCurrencies.push('BTC (SMS-Protected)');
+      if (!hiddenCoinsList.includes('BTC (Multisig)')) widgetCurrencies.push('BTC (Multisig)');
+      widgetCurrencies.push('ETH');
+
+      if (isWidgetBuild) {
+        if (window.widgetERC20Tokens && Object.keys(window.widgetERC20Tokens).length) {
+          // Multi token widget build
           Object.keys(window.widgetERC20Tokens).forEach(function (key) {
             widgetCurrencies.push(key.toUpperCase());
           });
+        } else {
+          widgetCurrencies.push(_appConfig.default.erc20token.toUpperCase());
         }
       }
 
@@ -39386,9 +39425,11 @@ function (_Component) {
       });
 
       if (isWidgetBuild) {
+        //tableRows = allData.filter(({ currency }) => widgetCurrencies.includes(currency))
         tableRows = allData.filter(function (_ref9) {
-          var currency = _ref9.currency;
-          return widgetCurrencies.includes(currency);
+          var currency = _ref9.currency,
+              balance = _ref9.balance;
+          return !hiddenCoinsList.includes(currency);
         });
       }
 
@@ -39603,7 +39644,7 @@ var CurrenciesList = function CurrenciesList(_ref) {
         handleSelectId: handleSelectId
       });
     }
-  }), !(_appConfig.default && _appConfig.default.isWidget) && _react.default.createElement(_Button.default, {
+  }), _react.default.createElement(_Button.default, {
     onClick: goToСreateWallet,
     blue: true,
     transparent: true,
@@ -40209,19 +40250,15 @@ function (_Component) {
         action: this.copy,
         disabled: false
       }];
-
-      if (!isWidgetBuild) {
-        dropDownMenuItems.push({
-          id: 1011,
-          title: _react.default.createElement(_reactIntl.FormattedMessage, {
-            id: "WalletRow_Menu_Hide",
-            defaultMessage: "Hide"
-          }),
-          action: this.hideCurrency,
-          disabled: false
-        });
-      }
-
+      dropDownMenuItems.push({
+        id: 1011,
+        title: _react.default.createElement(_reactIntl.FormattedMessage, {
+          id: "WalletRow_Menu_Hide",
+          defaultMessage: "Hide"
+        }),
+        action: this.hideCurrency,
+        disabled: false
+      });
       if (currencyView == 'BTC (Multisig)') currencyView = 'BTC';
       if (currencyView == 'BTC (SMS-Protected)') currencyView = 'BTC';
 
@@ -66095,7 +66132,7 @@ function (_Component) {
           return;
       }
 
-      if (!didOpenWalletCreate && isWalletPage && !(_appConfig.default && _appConfig.default.isWidget)) {
+      if (!didOpenWalletCreate && isWalletPage) {
         _this.openCreateWallet({
           onClose: tourEvent
         });
