@@ -134,7 +134,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Sunday, February 16, 2020 8:37 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Monday, February 17, 2020 1:02 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -2315,6 +2315,13 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
+var defaultCurrencyColors = {
+  'btc': 'orange',
+  'btc (multisig)': 'orange',
+  'btc (sms-protected)': 'orange',
+  'usdt': '#33a681'
+};
+
 var Coin = function Coin(_ref) {
   var className = _ref.className,
       size = _ref.size,
@@ -2332,6 +2339,14 @@ var Coin = function Coin(_ref) {
 
   if (_appConfig.default && _appConfig.default.erc20 && _appConfig.default.erc20[name.toLowerCase()] && _appConfig.default.erc20[name.toLowerCase()].icon) {
     isIconConfigExist = true;
+  }
+
+  if (defaultCurrencyColors[name.toLowerCase()]) {
+    style.backgroundColor = defaultCurrencyColors[name.toLowerCase()];
+  }
+
+  if (_appConfig.default && _appConfig.default.erc20 && _appConfig.default.erc20[name.toLowerCase()] && _appConfig.default.erc20[name.toLowerCase()].iconBgColor) {
+    style.backgroundColor = _appConfig.default.erc20[name.toLowerCase()].iconBgColor;
   }
 
   if (isIconExist || isIconConfigExist) {
@@ -12427,9 +12442,16 @@ function (_Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       // actions.analytics.dataEvent('open-page-history')
-      _actions.default.user.setTransactions();
+      var _this$props$match$par = this.props.match.params.address,
+          address = _this$props$match$par === void 0 ? null : _this$props$match$par;
 
-      _actions.default.core.getSwapHistory();
+      if (address) {
+        _actions.default.history.setTransactions(address);
+      } else {
+        _actions.default.user.setTransactions();
+
+        _actions.default.core.getSwapHistory();
+      }
     }
   }, {
     key: "render",
@@ -15108,7 +15130,7 @@ var routes = _react.default.createElement(_ScrollToTop.default, null, _react.def
   path: "".concat(_locale.localisePrefix).concat(_helpers.links.wallet),
   component: _Wallet2.default
 }), _react.default.createElement(_reactRouter.Route, {
-  path: "".concat(_locale.localisePrefix).concat(_helpers.links.history),
+  path: "".concat(_locale.localisePrefix).concat(_helpers.links.history, "/(btc)?/:address?"),
   component: _History.default
 }), _react.default.createElement(_reactRouter.Route, {
   exact: true,
@@ -32389,6 +32411,7 @@ var _eurs = _interopRequireDefault(__webpack_require__(2149));
 var _default = {
   btc: _btc.default,
   'btc (multisig)': _btc.default,
+  'btc (sms-protected)': _btc.default,
   dcn: _dcn.default,
   bxb: _bxb.default,
   kn: _kn.default,
@@ -39625,6 +39648,11 @@ function (_Component) {
           var currency = _ref9.currency,
               balance = _ref9.balance;
           return !hiddenCoinsList.includes(currency);
+        }); // Отфильтруем валюты, исключив те, которые не используются в этом билде
+
+        tableRows = allData.filter(function (_ref10) {
+          var currency = _ref10.currency;
+          return widgetCurrencies.includes(currency);
         });
       }
 
@@ -39655,9 +39683,9 @@ function (_Component) {
         defaultMessage: "\u041A\u043E\u0448\u0435\u043B\u0435\u043A"
       })), _react.default.createElement("ul", {
         styleName: "walletNav"
-      }, walletNav.map(function (_ref10, index) {
-        var key = _ref10.key,
-            text = _ref10.text;
+      }, walletNav.map(function (_ref11, index) {
+        var key = _ref11.key,
+            text = _ref11.text;
         return _react.default.createElement("li", {
           key: key,
           styleName: "walletNavItem ".concat(activeView === index ? 'active' : ''),
@@ -76305,9 +76333,14 @@ function (_React$Component) {
         }
 
         var renderIcon = _images.default[iconName];
+        var renderStyle = {};
 
-        if (_appConfig.default && _appConfig.default.erc20 && _appConfig.default.erc20[item.currency.toLowerCase()] && _appConfig.default.erc20[item.currency.toLowerCase()].icon) {
-          renderIcon = _appConfig.default.erc20[item.currency.toLowerCase()].icon;
+        if (_appConfig.default && _appConfig.default.erc20 && _appConfig.default.erc20[item.currency.toLowerCase()]) {
+          if (_appConfig.default.erc20[item.currency.toLowerCase()].icon) renderIcon = _appConfig.default.erc20[item.currency.toLowerCase()].icon;
+
+          if (_appConfig.default.erc20[item.currency.toLowerCase()].iconBgColor) {
+            renderStyle.backgroundColor = _appConfig.default.erc20[item.currency.toLowerCase()].iconBgColor;
+          }
         }
 
         return _react.default.createElement("div", {
@@ -76317,7 +76350,8 @@ function (_React$Component) {
             return _this2.handleClickCurrency(item);
           }
         }, _react.default.createElement("div", {
-          styleName: "circle ".concat(iconName)
+          styleName: "circle ".concat(iconName),
+          style: renderStyle
         }, _react.default.createElement("img", {
           src: renderIcon,
           alt: "".concat(name, " icon"),
