@@ -377,7 +377,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Thursday, February 27, 2020 2:16 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Thursday, February 27, 2020 3:26 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -44283,6 +44283,7 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
     var _props$match$params = props.match.params,
         fullName = _props$match$params.fullName,
         _address = _props$match$params.address;
+    console.log('In address', _address);
     _this.state = {
       currency: null,
       address: null,
@@ -44311,7 +44312,8 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
         _actions.default.token.getBalance(currency.toLowerCase());
       }
 
-      this.setLocalStorageItems(); // if address is null, take transactions from current user
+      this.setLocalStorageItems();
+      console.log('componentDidMount', address); // if address is null, take transactions from current user
 
       address ? _actions.default.history.setTransactions(address) : _actions.default.user.setTransactions();
       if (!address) _actions.default.core.getSwapHistory();
@@ -44466,7 +44468,7 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
         leftSideContent: true
       })), _react.default.createElement("div", {
         styleName: "currencyWalletActivityWrapper"
-      }, swapHistory.filter(function (item) {
+      }, !_actions.default.btcmultisig.isBTCSMSAddress("".concat(address)) && !_actions.default.btcmultisig.isBTCMSUserAddress("".concat(address)) && (swapHistory.filter(function (item) {
         return item.step >= 4;
       }).length > 0 ? _react.default.createElement("div", {
         styleName: "currencyWalletSwapHistory"
@@ -44474,7 +44476,7 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
         orders: swapHistory.filter(function (item) {
           return item.step >= 4;
         })
-      })) : '', txHistory ? _react.default.createElement("div", {
+      })) : ''), txHistory ? _react.default.createElement("div", {
         styleName: "currencyWalletActivity"
       }, _react.default.createElement("h3", null, address ? "Address: ".concat(address) : _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "historyActivity",
@@ -44501,7 +44503,13 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
           items = _ref3.items,
           history = _ref3.history,
           tokens = _ref3.tokens;
+
       // looking for an alias
+      if (!address) {
+        console.log('no address - return');
+        return;
+      }
+
       fullName = _links.aliases[fullName.toLowerCase()] ? _links.aliases[fullName.toLowerCase()] : fullName.toLowerCase();
       var item = items.map(function (item) {
         return item.fullName.toLowerCase();
@@ -44514,15 +44522,40 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
         var itemCurrency = items.filter(function (item) {
           return item.fullName.toLowerCase() === fullName.toLowerCase();
         })[0];
-        var currency = itemCurrency.currency,
-            contractAddress = itemCurrency.contractAddress,
-            decimals = itemCurrency.decimals,
-            balance = itemCurrency.balance,
-            infoAboutCurrency = itemCurrency.infoAboutCurrency;
+
+        if (_actions.default.btcmultisig.isBTCSMSAddress("".concat(_address2))) {
+          console.log('Is sms');
+          itemCurrency = items.filter(function (item) {
+            return item.fullName.toLowerCase() === 'btc (sms-protected)';
+          })[0];
+
+          if (!itemCurrency.length) {
+            history.push((0, _locale.localisedUrl)(locale, "".concat(_helpers.links.notFound)));
+          } else itemCurrency = itemCurrency[0];
+        }
+
+        if (_actions.default.btcmultisig.isBTCMSUserAddress("".concat(_address2))) {
+          console.log('Is ms');
+          itemCurrency = items.filter(function (item) {
+            return item.fullName.toLowerCase() === 'btc (multisig)';
+          })[0];
+
+          if (!itemCurrency.length) {
+            history.push((0, _locale.localisedUrl)(locale, "".concat(_helpers.links.notFound)));
+          } else itemCurrency = itemCurrency[0];
+        }
+
+        var _itemCurrency = itemCurrency,
+            currency = _itemCurrency.currency,
+            _address2 = _itemCurrency.address,
+            contractAddress = _itemCurrency.contractAddress,
+            decimals = _itemCurrency.decimals,
+            balance = _itemCurrency.balance,
+            infoAboutCurrency = _itemCurrency.infoAboutCurrency;
         return {
           token: token,
           currency: currency,
-          address: address,
+          address: _address2,
           fullName: fullName,
           contractAddress: contractAddress,
           decimals: decimals,
@@ -44531,7 +44564,7 @@ var CurrencyWallet = (_dec = (0, _redaction.connect)(function (_ref) {
           isBalanceEmpty: balance === 0
         };
         this.setState({
-          address: address
+          address: _address2
         });
       }
 
