@@ -377,7 +377,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Thursday, February 27, 2020 9:33 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Thursday, February 27, 2020 11:51 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -13567,7 +13567,7 @@ var _default = function _default(props) {
       id: "descr284",
       defaultMessage: "I saved my keys"
     }),
-    secondFunc: handleSaveKeys
+    secondFunc: handleNotifyBlockClose
   }));
 };
 
@@ -24936,6 +24936,7 @@ var _default = {
   startSwap: 'startSwap',
   didProtectedBtcCreated: 'protectedBtcCreated',
   didProtectedBtcG2FACreated: 'protectedBtcG2FA',
+  isPrivateKeysSaved: 'isPrivateKeysSaved',
   isClosedNotifyBlockSignUp: 'isClosedNotifyBlockSignUp',
   isClosedNotifyBlockBanner: 'isClosedNotifyBlockBanner',
   walletTitle: 'walletTitle',
@@ -33689,31 +33690,6 @@ function (_Component) {
 
       return item.title;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "showPercentChange1H", function () {
-      var items = _this.props.items;
-      var infoAboutCurrency = [];
-      fetch('https://noxon.io/cursAll.php').then(function (res) {
-        return res.json();
-      }).then(function (result) {
-        var itemsName = items.map(function (el) {
-          return el.name;
-        });
-        result.map(function (res) {
-          if (itemsName.includes(res.symbol)) {
-            infoAboutCurrency.push({
-              name: res.symbol,
-              change: res.percent_change_1h
-            });
-          }
-        });
-
-        _this.setState({
-          infoAboutCurrency: infoAboutCurrency
-        });
-      }, function (error) {
-        console.log('error on fetch data from api');
-      });
-    });
     _this.state = {
       selectedValue: initialValue || _selectedValue || 0,
       inputValue: '',
@@ -33727,10 +33703,6 @@ function (_Component) {
     key: "componentDidUpdate",
     value: function componentDidUpdate(prevProps) {
       var isToggleActive = this.props.isToggleActive;
-
-      if (prevProps.isToggleActive !== isToggleActive && isToggleActive) {
-        this.showPercentChange1H();
-      }
     }
   }, {
     key: "render",
@@ -40549,7 +40521,7 @@ function (_Component) {
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "setLocalStorageItems", function () {
       var isClosedNotifyBlockBanner = localStorage.getItem(_helpers.constants.localStorage.isClosedNotifyBlockBanner);
       var isClosedNotifyBlockSignUp = localStorage.getItem(_helpers.constants.localStorage.isClosedNotifyBlockSignUp);
-      var isPrivateKeysSaved = localStorage.getItem(_helpers.constants.localStorage.privateKeysSaved);
+      var isPrivateKeysSaved = localStorage.getItem(_helpers.constants.localStorage.isPrivateKeysSaved);
       var walletTitle = localStorage.getItem(_helpers.constants.localStorage.walletTitle);
 
       _this.setState({
@@ -40567,6 +40539,8 @@ function (_Component) {
       fn();
     });
     (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "handleNotifyBlockClose", function (state) {
+      console.log('state', state);
+
       _this.setState((0, _defineProperty2.default)({}, state, true));
 
       localStorage.setItem(_helpers.constants.localStorage[state], 'true');
@@ -40790,7 +40764,9 @@ function (_Component) {
         settings: settings,
         isSigned: isSigned,
         host: window.location.hostname,
-        handleNotifyBlockClose: this.handleNotifyBlockClose
+        handleNotifyBlockClose: function handleNotifyBlockClose(state) {
+          return _this2.handleNotifyBlockClose('isPrivateKeysSaved');
+        }
       }, this.state)), _react.default.createElement("h3", {
         styleName: "walletHeading"
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
