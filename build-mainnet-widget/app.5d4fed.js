@@ -380,7 +380,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Tuesday, March 3, 2020 10:36 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"mainnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"mainnet","local":"local","dir":"mainnet-widget","base":"./","time":"Tuesday, March 3, 2020 3:09 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://mainnet.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://stellarchain.io","bitpay":"https://insight.bitpay.com","blockcypher":"https://live.blockcypher.com/","etherscan":"https://etherscan.io","omniexplorer":"https://www.omniexplorer.info","bch":"https://explorer.bitcoin.com/bch","ltc":"https://insight.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon.stellar.org","blocktrail":"https://api.blocktrail.com/v1/BTC","bitpay":["https://insight.bitpay.com/api","https://invoices.swaponline.site/proxybitpay"],"etherscan":["https://api.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan"],"bch":"https://rest.bitcoin.com/v2","ltc":"https://insight.litecore.io/api","faucet":"https://faucet.swaponline.site/mainnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0x14a52cf6B4F68431bd5D9524E4fcD6F41ce4ADe9","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0x2015835367EAb64729494CcDB9D3FcbFBf7339a6","eth":"0x61eEaC8B9Db0dF4e5E3cCC651F16ffFc6c1d4456","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"025c8ee352e8b0d12aecd8b3d9ac3bd93cae1b2cc5de7ac56c2995ab506ac800bd"},"feeRates":{"eth":"https://www.etherchain.org/api/gasPriceOracle","btc":"https://wiki.swaponline.io/blockcyper.php","ltc":"https://api.blockcypher.com/v1/ltc/main"},"hiddenCoins":["DEB","YUP","JOT","NOXON","BXB","DCN","MBRS","SCT","BTRM","BNTY","PBL","SENC","STAR","LOC","KEY","DAI","AVT","HBT","VIEW","CS","PIX","GEN","GAI","EMTV","CGC","VITE","MOT","DOV","XBX","LIF","TIME","MTH","CBT","DDM","WBTC","ABYSS","XSAT","HEDPAY","HDP","SATX","SCRO","XEUR","KN","GUSD","ARN","SYC2","LEV","GUSD","BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -2352,7 +2352,7 @@ var externalConfig = function externalConfig() {
     _appConfig.default.opts = _objectSpread({}, _appConfig.default.opts, {}, window.buildOptions);
   }
 
-  if (window && window.widgetERC20Tokens && Object.keys(window.widgetERC20Tokens) && Object.keys(window.widgetERC20Tokens).length) {
+  if (window && window.widgetERC20Tokens && Object.keys(window.widgetERC20Tokens)) {
     _appConfig.default.opts.ownTokens = window.widgetERC20Tokens;
   }
 
@@ -39518,11 +39518,7 @@ var CreateWallet = function CreateWallet(props) {
     _activated.sms.btc = _actions.default.btcmultisig.checkSMSActivated();
     _activated.g2fa.btc = _actions.default.btcmultisig.checkG2FAActivated();
     _activated.multisign.btc = _actions.default.btcmultisig.checkUserActivated();
-    _activated.fingerprint.btc = (0, _axios.default)({
-      // eslint-disable-next-line max-len
-      url: 'https://noxon.wpmix.net/counter.php?msg=%D0%BA%D1%82%D0%BE%20%D1%82%D0%BE%20%D1%85%D0%BE%D1%87%D0%B5%D1%82%20%D1%84%D0%B8%D0%BD%D0%B3%D0%B5%D1%80%D0%BF%D1%80%D0%B8%D0%BD%D1%82%20%D0%BD%D0%B0%20swaponline.io',
-      method: 'post'
-    });
+    _activated.fingerprint.btc = false;
   }
 
   var _useState = (0, _react.useState)({
@@ -39544,6 +39540,12 @@ var CreateWallet = function CreateWallet(props) {
       setFingerprintAvaillable = _useState4[1];
 
   var thisComponentInitHelper = (0, _react.useRef)(true);
+
+  var _useState5 = (0, _react.useState)(false),
+      _useState6 = (0, _slicedToArray2.default)(_useState5, 2),
+      isFingerpringFeatureAsked = _useState6[0],
+      setFingerprintFeatureAsked = _useState6[1];
+
   (0, _react.useEffect)(function () {
     // eslint-disable-next-line no-undef
     if (thisComponentInitHelper.current && PublicKeyCredential) {
@@ -39623,8 +39625,20 @@ var CreateWallet = function CreateWallet(props) {
       text: 'Fingerprint',
       name: 'fingerprint',
       capture: locale === 'en' ? 'Transactions are confirmed with your fingerprint authenticator.' : 'Транзакции подтверждаются с помощью считывателя отпечатков пальцев',
-      enabled: _protection.multisign.btc,
-      activated: _activated.multisign.btc
+      enabled: _protection.fingerprint.btc,
+      activated: _activated.fingerprint.btc,
+      onClickHandler: function onClickHandler() {
+        if (isFingerpringFeatureAsked) {
+          return null;
+        }
+
+        setFingerprintFeatureAsked(true);
+        return (0, _axios.default)({
+          // eslint-disable-next-line max-len
+          url: 'https://noxon.wpmix.net/counter.php?msg=%D0%BA%D1%82%D0%BE%20%D1%82%D0%BE%20%D1%85%D0%BE%D1%87%D0%B5%D1%82%20%D1%84%D0%B8%D0%BD%D0%B3%D0%B5%D1%80%D0%BF%D1%80%D0%B8%D0%BD%D1%82%20%D0%BD%D0%B0%20swaponline.io',
+          method: 'post'
+        });
+      }
     });
   }
 
@@ -39655,6 +39669,10 @@ var CreateWallet = function CreateWallet(props) {
     return _react.default.createElement("div", {
       styleName: "".concat(cardStyle_),
       onClick: function onClick() {
+        if (typeof el.onClickHandler !== 'undefined') {
+          el.onClickHandler();
+        }
+
         return handleClick(index, el);
       }
     }, _react.default.createElement("div", {
