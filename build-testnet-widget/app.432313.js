@@ -380,7 +380,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Friday, March 6, 2020 9:04 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Friday, March 6, 2020 12:44 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/JCnK5ifEPH9qcQkX0Ahl"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -13769,7 +13769,7 @@ function BalanceForm(_ref) {
     }
   }, currency))), _react.default.createElement("div", {
     styleName: "yourBalanceBottom"
-  }, showButtons ? _react.default.createElement("div", null, _react.default.createElement(_react.Fragment, null, _react.default.createElement(_Button.default, {
+  }, showButtons ? _react.default.createElement(_react.Fragment, null, _react.default.createElement(_Button.default, {
     blue: true,
     id: "depositBtn",
     onClick: function onClick() {
@@ -13778,7 +13778,7 @@ function BalanceForm(_ref) {
   }, _react.default.createElement(_reactIntl.FormattedMessage, {
     id: "YourtotalbalanceDeposit",
     defaultMessage: "\u041F\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u044C"
-  }))), _react.default.createElement(_react.Fragment, null, _react.default.createElement(_Button.default, {
+  })), _react.default.createElement(_Button.default, {
     blue: true,
     disabled: !currencyBalance,
     id: "sendBtn",
@@ -13788,7 +13788,7 @@ function BalanceForm(_ref) {
   }, _react.default.createElement(_reactIntl.FormattedMessage, {
     id: "YourtotalbalanceSend",
     defaultMessage: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"
-  }))), isWidgetBuild && !_appConfig.default.isFullBuild && _react.default.createElement(_Button.default, {
+  })), isWidgetBuild && !_appConfig.default.isFullBuild && _react.default.createElement(_Button.default, {
     brand: true,
     id: "exchangeBtn",
     onClick: function onClick() {
@@ -78587,7 +78587,7 @@ var InvoiceModal = (_dec = (0, _redaction.connect)(function (_ref) {
 
               currency = data.currency.toUpperCase();
               _context.t0 = data.currency;
-              _context.next = _context.t0 === 'BTC (SMS-Protected)' ? 9 : _context.t0 === 'BTC (Multisig)' ? 9 : 11;
+              _context.next = _context.t0 === 'BTC (SMS-PROTECTED)' ? 9 : _context.t0 === 'BTC (MULTISIG)' ? 9 : 11;
               break;
 
             case 9:
@@ -78772,8 +78772,8 @@ var InvoiceModal = (_dec = (0, _redaction.connect)(function (_ref) {
       var checkCurrency = currency.toUpperCase();
 
       switch (currency) {
-        case 'BTC (SMS-Protected)':
-        case 'BTC (Multisig)':
+        case 'BTC (SMS-PROTECTED)':
+        case 'BTC (MULTISIG)':
           checkCurrency = 'BTC';
           break;
       }
