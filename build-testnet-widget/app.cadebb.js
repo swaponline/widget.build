@@ -380,7 +380,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Wednesday, March 18, 2020 9:48 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Wednesday, March 18, 2020 12:41 PM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -10047,7 +10047,7 @@ var estimateFeeValue = /*#__PURE__*/function () {
             feeRate = _context2.t1;
             calculatedFeeValue = _bignumber.default.maximum(DUST, (0, _bignumber.default)(feeRate).multipliedBy(txSize).div(1024).dp(0, _bignumber.default.ROUND_HALF_EVEN)); // Используем комиссию больше рекомендованной на 5 сатоши
 
-            calculatedFeeValue.plus(5);
+            calculatedFeeValue.plus(20);
             finalFeeValue = inSatoshis ? calculatedFeeValue.toString() : calculatedFeeValue.multipliedBy(1e-8).toString();
             return _context2.abrupt("return", finalFeeValue);
 
@@ -12417,7 +12417,8 @@ var PrivateKeysModal = (_dec = (0, _redaction.connect)({
         name: name,
         title: intl.formatMessage(title.PrivateKeysModal)
       }, _react.default.createElement("div", {
-        styleName: "content"
+        styleName: "content",
+        className: "ym-hide-content"
       }, _react.default.createElement(_react.Fragment, null, _react.default.createElement("div", {
         styleName: "title"
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -74261,7 +74262,8 @@ var WithdrawModalMultisig = (_dec = (0, _redaction.connect)(function (_ref) {
         id: "WithdrawSMS_MnemonicSignCaption",
         defaultMessage: "\u041F\u043E\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u0435 \u0442\u0440\u0430\u043D\u0437\u0430\u043A\u0446\u0438\u0438 \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u043E\u0439 \u0444\u0440\u0430\u0437\u043E\u0439"
       })), _react.default.createElement("div", {
-        styleName: "highLevel"
+        styleName: "highLevel",
+        className: "ym-hide-content"
       }, _react.default.createElement(_FieldLabel.default, {
         label: true
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -76005,7 +76007,8 @@ var ImportKeys = (_dec = (0, _reactCssModules.default)(_ImportKeys.default), (0,
         data: data,
         onClose: this.state.onClose
       }, _react.default.createElement("div", {
-        styleName: "modal"
+        styleName: "modal",
+        className: "ym-hide-content"
       }, _react.default.createElement("p", null, _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "ImportKeys107",
         defaultMessage: "This procedure will rewrite your private key. If you are not sure about it, we recommend to press cancel"
@@ -78985,7 +78988,8 @@ var RegisterSMSProtected = (_dec = (0, _redaction.connect)(function (_ref) {
       }, _react.default.createElement("div", {
         styleName: "registerSMSModalHolder"
       }, step === 'enterPhoneAndMnemonic' && _react.default.createElement(_react.Fragment, null, _react.default.createElement("div", {
-        styleName: "highLevel"
+        styleName: "highLevel",
+        className: "ym-hide-content"
       }, _react.default.createElement(_FieldLabel.default, {
         label: true
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -79004,7 +79008,8 @@ var RegisterSMSProtected = (_dec = (0, _redaction.connect)(function (_ref) {
         id: "registerSMSWordsInfoBlock",
         defaultMessage: "\u0421\u0433\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0439\u0442\u0435 \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u0443\u044E \u0444\u0440\u0430\u0437\u0443 \u0438\u043B\u0438 \u0443\u043A\u0430\u0436\u0438\u0442\u0435 \u0440\u0430\u043D\u0435\u0435 \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u043D\u0443\u044E \u0434\u043B\u044F \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u044F \u0441\u0442\u0430\u0440\u043E\u0433\u043E \u043A\u043E\u0448\u0435\u043B\u044C\u043A\u0430"
       }))), _react.default.createElement("div", {
-        styleName: "highLevel"
+        styleName: "highLevel",
+        className: "ym-hide-content"
       }, _react.default.createElement(_FieldLabel.default, {
         label: true
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -79075,7 +79080,8 @@ var RegisterSMSProtected = (_dec = (0, _redaction.connect)(function (_ref) {
         id: "registerSMSModalSendSMS",
         defaultMessage: "Send SMS"
       })))), step === "enterPhone" && _react.default.createElement(_react.Fragment, null, _react.default.createElement("div", {
-        styleName: "highLevel"
+        styleName: "highLevel",
+        className: "ym-hide-content"
       }, _react.default.createElement(_FieldLabel.default, {
         label: true
       }, _react.default.createElement(_reactIntl.FormattedMessage, {
@@ -79168,7 +79174,8 @@ var RegisterSMSProtected = (_dec = (0, _redaction.connect)(function (_ref) {
         id: "registerSMSModalReady",
         defaultMessage: "Your protected wallet activated"
       }))), _react.default.createElement("div", {
-        styleName: "restoreInstruction"
+        styleName: "restoreInstruction",
+        className: "ym-hide-content"
       }, _react.default.createElement("h1", null, _react.default.createElement(_reactIntl.FormattedMessage, {
         id: "registerSMSModalFinishSaveThisInfo",
         defaultMessage: "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043B\u0443\u0447\u0430\u0439 \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E\u0441\u0442\u0438 \u043D\u0430\u0448\u0435\u0433\u043E \u0441\u0435\u0440\u0432\u0438\u0441\u0430"
@@ -79432,7 +79439,9 @@ var MultisignJoinLink = (_dec = (0, _redaction.connect)(function (_ref) {
         showCloseButton: showCloseButton
       }, _react.default.createElement(_react.Fragment, null, _react.default.createElement("p", {
         styleName: "notice"
-      }, _react.default.createElement(_reactIntl.FormattedMessage, langLabels.multiSignJoinLinkMessage)), _react.default.createElement("div", null, _react.default.createElement(_controls.ShareLink, {
+      }, _react.default.createElement(_reactIntl.FormattedMessage, langLabels.multiSignJoinLinkMessage)), _react.default.createElement("div", {
+        className: "ym-hide-content"
+      }, _react.default.createElement(_controls.ShareLink, {
         link: joinLink
       })), _react.default.createElement("hr", null), _react.default.createElement(_Button.default, {
         blue: true,
@@ -82310,7 +82319,8 @@ var SaveMnemonicModal = (_dec = (0, _redaction.connect)(function (_ref) {
           key: index,
           onClick: function onClick() {
             return _this2.handleClickWord(index);
-          }
+          },
+          className: "ym-hide-content"
         }, word);
       }))), _react.default.createElement("div", {
         styleName: "lowLevel"
@@ -82322,7 +82332,8 @@ var SaveMnemonicModal = (_dec = (0, _redaction.connect)(function (_ref) {
       }, _react.default.createElement(_reactIntl.FormattedMessage, langLabels.Ready)))), step === "show" && _react.default.createElement(_react.Fragment, null, _react.default.createElement("div", {
         styleName: "highLevel"
       }, _react.default.createElement("div", {
-        styleName: "mnemonicView"
+        styleName: "mnemonicView",
+        className: "ym-hide-content"
       }, words.map(function (word, index) {
         return _react.default.createElement("div", {
           key: index
@@ -82596,7 +82607,8 @@ var RestoryMnemonicWallet = (_dec = (0, _reactCssModules.default)(_objectSpread(
       }, _react.default.createElement("div", null, step === "enter" && _react.default.createElement(_react.Fragment, null, mnemonic && mnemonicIsInvalid && _react.default.createElement("div", {
         styleName: "rednotes mnemonicNotice"
       }, _react.default.createElement(_reactIntl.FormattedMessage, langLabels.mnemonicInvalid)), _react.default.createElement("div", {
-        styleName: "highLevel"
+        styleName: "highLevel",
+        className: "ym-hide-content"
       }, _react.default.createElement(_FieldLabel.default, {
         label: true
       }, _react.default.createElement(_reactIntl.FormattedMessage, langLabels.mnemonicLabel)), _react.default.createElement(_Input.default, {
