@@ -380,7 +380,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Tuesday, March 24, 2020 9:20 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Tuesday, March 24, 2020 10:00 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -70432,7 +70432,7 @@ var Footer = function Footer(props) {
     styleName: "footer"
   }, /*#__PURE__*/_react.default.createElement(_WidthContainer.default, {
     styleName: "container"
-  }, /*#__PURE__*/_react.default.createElement(_SwitchLang.default, props), !_appConfig.default.isWidget && /*#__PURE__*/_react.default.createElement(_SocialMenu.default, null), !_reactDeviceDetect.isMobile && 0 && /*#__PURE__*/_react.default.createElement(_Info.default, props), /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement(_SwitchLang.default, props), !_appConfig.default.isWidget && /*#__PURE__*/_react.default.createElement(_SocialMenu.default, null), /*#__PURE__*/_react.default.createElement(_Info.default, props), /*#__PURE__*/_react.default.createElement("span", {
     styleName: "date"
   }, _appConfig.default.time))));
 };
@@ -70539,12 +70539,12 @@ var Info = /*#__PURE__*/function (_React$Component) {
       var isVisibleProgressBar = this.state.isVisibleProgressBar;
       var onlinePeersHack = onlineUsers >= 0 ? onlineUsers : 1;
       return /*#__PURE__*/_react.default.createElement("div", {
-        styleName: "title"
-      }, "libp2p network status:", ' ', /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("span", {
+        styleName: "title ".concat(isOnline ? 'online' : 'offline')
+      }, /*#__PURE__*/_react.default.createElement("em", null), /*#__PURE__*/_react.default.createElement("div", null, "libp2p network status:", ' ', /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("span", {
         styleName: isOnline ? 'connect' : 'disconnect'
       }, isOnline ? 'Connected' : 'Disconnected. You cannot make exchanges until you are disconnected. Turn off VPN or try another network or browser'), ' ', isOnline && "/ peers online: ".concat(onlinePeersHack)), isVisibleProgressBar && /*#__PURE__*/_react.default.createElement(_ProgressBar.default, {
         handleClick: this.hideProgressBar
-      }));
+      })));
     }
   }]);
   return Info;
@@ -70572,7 +70572,7 @@ exports.default = _default;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"title":"_1C587YFFLMewC02vG12EkC","connect":"_34nV3EEugZ2VP7eL4TrdjZ","disconnect":"_2UdlK93WaM1J4q0RvRr6P-","copyright":"_12uT1GvSzU8H9NsrkJu33H","copyright-text":"_2_iz0_TwCJIZoA-hb4RCNG"};
+module.exports = {"title":"_1C587YFFLMewC02vG12EkC","online":"QTJ9RtsjDP8K705f0UCDG","offline":"_31etSX0M8vOLlmHfBwAXk1","connect":"_34nV3EEugZ2VP7eL4TrdjZ","disconnect":"_2UdlK93WaM1J4q0RvRr6P-","copyright":"_12uT1GvSzU8H9NsrkJu33H","copyright-text":"_2_iz0_TwCJIZoA-hb4RCNG"};
 
 /***/ }),
 /* 3589 */
