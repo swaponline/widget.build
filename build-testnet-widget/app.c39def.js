@@ -380,7 +380,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 // resolve object in webpack
-var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Monday, March 23, 2020 11:21 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
+var _default = {"propENV":"testnet.widget.prod","paths":{},"publicPath":"./","http":{"host":"localhost","port":9001},"i18nDate":{"month":"long","day":"numeric","hour":"numeric","minute":"numeric"},"env":"production","entry":"testnet","local":"local","dir":"testnet-widget","base":"./","time":"Tuesday, March 24, 2020 9:20 AM","isWidget":true,"isFullBuild":false,"web3":{"provider":"https://rinkeby.infura.io/v3/5ffc47f65c4042ce847ef66a3fa70d4c"},"link":{"xlm":"http://testnet.stellarchain.io","bitpay":"https://www.blockchain.com/ru/btctest","etherscan":"https://rinkeby.etherscan.io","bch":"https://explorer.bitcoin.com/tbch","ltc":"https://testnet.litecore.io","qtum":"https://explorer.qtum.org/"},"api":{"horizon":"https://horizon-testnet.stellar.org","blocktrail":"https://api.blocktrail.com/v1/tBTC","bitpay":["https://test-insight.swaponline.io/insight-api","https://invoices.swaponline.site/proxybitpay-testnet"],"etherscan":["https://rinkeby.etherscan.io/api","https://invoices.swaponline.site/proxyetherscan-testnet"],"bch":"https://trest.bitcoin.com/v2","ltc":"https://testnet.litecore.io/api","faucet":"https://faucet.swaponline.site/testnet/","btc2FAProtected":"https://2fa.swaponline.site","invoiceApi":"https://invoices.swaponline.site"},"ipfs":{"swarm":"/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star/","server":"ws-star.discovery.libp2p.io"},"erc20":{"swap":{"address":"0xbaa3fa2ed111f3e8488c21861ea7b7dbb5a7b121","decimals":18,"fullName":"SWAP"},"{#WIDGETTOKENCODE#}":{"address":"{#WIDGETTOKENCONTRACT#}","decimals":12071998,"fullName":"{#WIDGETTOKENTITLE#}"}},"swapContract":{"erc20":"0xc5febf8C2E11f6fC85897b0134A79175b8410b4f","eth":"0x6F54CDAE7c98b0306fB3aB4daED4cAEe25b92Bc6","reputationOracle":"0x6260B5ef52d72732674fF4BDE3B37a4222dB1785","protectedBtcKey":"023d894571a253b87868db7d54a8b583e0c8ce53b484af8a0b0390b7722975cfaa"},"feeRates":{"btc":"https://api.blockcypher.com/v1/btc/test3"},"hiddenCoins":["BTC","BTC (SMS-Protected)","BTC (Multisig)","BCH","ETH","LTC","SWAP","HDP","USDT","MSK","RURSBER","RURCASH","USDSWIFT"],"noExchangeCoins":["LTC","BTCMultisig"],"erc20token":"{#WIDGETTOKENCODE#}"};
 exports.default = _default;
 
 /***/ }),
@@ -41317,7 +41317,7 @@ var CreateWallet = function CreateWallet(props) {
     if (currencies.BTC) {
       (0, _axios.default)({
         // eslint-disable-next-line max-len
-        url: 'https://noxon.wpmix.net/counter.php?msg=%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%B8%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0%20BTC%20swaponline.io',
+        url: "https://noxon.wpmix.net/counter.php?msg=%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%B8%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0%20BTC%20".concat(window.top.location.host),
         method: 'post'
       }).catch(function (e) {
         return console.error(e);
@@ -41378,7 +41378,7 @@ var CreateWallet = function CreateWallet(props) {
       setTrivialFeatureAsked(true);
       return (0, _axios.default)({
         // eslint-disable-next-line max-len
-        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-normal%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20swaponline.io"),
+        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-normal%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20").concat(window.top.location.host),
         method: 'post'
       }).catch(function (e) {
         return console.error(e);
@@ -41402,7 +41402,7 @@ var CreateWallet = function CreateWallet(props) {
       setSmsFeatureAsked(true);
       return (0, _axios.default)({
         // eslint-disable-next-line max-len
-        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-sms%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20swaponline.io"),
+        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-sms%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20").concat(window.top.location.host),
         method: 'post'
       }).catch(function (e) {
         return console.error(e);
@@ -41424,7 +41424,7 @@ var CreateWallet = function CreateWallet(props) {
       set2FAFeatureAsked(true);
       return (0, _axios.default)({
         // eslint-disable-next-line max-len
-        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-2fa%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20swaponline.io"),
+        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-2fa%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20").concat(window.top.location.host),
         method: 'post'
       }).catch(function (e) {
         return console.error(e);
@@ -41444,7 +41444,7 @@ var CreateWallet = function CreateWallet(props) {
       setMultisigFeatureAsked(true);
       return (0, _axios.default)({
         // eslint-disable-next-line max-len
-        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-multisig%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20swaponline.io"),
+        url: "https://noxon.wpmix.net/counter.php?msg=%D1%85%D0%BE%D1%82%D1%8F%D1%82%20%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C%20".concat(currencyName, "-multisig%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%20").concat(window.top.location.host),
         method: 'post'
       }).catch(function (e) {
         return console.error(e);
@@ -41467,7 +41467,7 @@ var CreateWallet = function CreateWallet(props) {
         setFingerprintFeatureAsked(true);
         return (0, _axios.default)({
           // eslint-disable-next-line max-len
-          url: "https://noxon.wpmix.net/counter.php?msg=%D0%BA%D1%82%D0%BE%20%D1%82%D0%BE%20%D1%85%D0%BE%D1%87%D0%B5%D1%82%20".concat(currencyName, "-fingerprint%20%D0%BD%D0%B0%20swaponline.io"),
+          url: "https://noxon.wpmix.net/counter.php?msg=%D0%BA%D1%82%D0%BE%20%D1%82%D0%BE%20%D1%85%D0%BE%D1%87%D0%B5%D1%82%20".concat(currencyName, "-fingerprint%20%D0%BD%D0%B0%20").concat(window.top.location.host),
           method: 'post'
         }).catch(function (e) {
           return console.error(e);
